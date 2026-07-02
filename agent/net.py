@@ -49,3 +49,31 @@ def post(url, payload, timeout=15, retries=2, headers=None):
             last = e
             time.sleep(0.5 * (2 ** i) + random.random() * 0.3)
     raise RuntimeError(f"POST {url} failed: {last!r}")
+
+
+def patch(url, payload, timeout=15, retries=2, headers=None):
+    hdrs = {"User-Agent": UA, "Content-Type": "application/json"}
+    if headers:
+        hdrs.update(headers)
+    data = json.dumps(payload).encode("utf-8")
+    last = None
+    for i in range(retries):
+        try:
+            req = urllib.request.Request(url, data=data, headers=hdrs, method="PATCH")
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                body = r.read()
+            if not body:
+                return {"status": r.status, "url": url}
+            try:
+                return json.loads(body.decode("utf-8", errors="replace"))
+            except Exception:
+                return {"status": r.status, "raw": body[:500].decode("utf-8", errors="replace")}
+        except urllib.error.HTTPError as e:
+            body = e.read().decode("utf-8", errors="replace")
+            if e.code in (400, 401, 403, 404, 409, 422):
+                return {"status": e.code, "error": body[:500]}
+            last = e
+        except Exception as e:
+            last = e
+        time.sleep(0.5 * (2 ** i) + random.random() * 0.3)
+    raise RuntimeError(f"PATCH {url} failed: {last!r}")

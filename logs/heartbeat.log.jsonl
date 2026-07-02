@@ -16,3 +16,17 @@
 {"ts": "2026-07-02T21:24:32.337162+00:00", "stage": "dashboard", "path": "C:\\Users\\rmalk\\Projects\\razel369-aia\\aia\\index.html", "bytes": 22441}
 {"ts": "2026-07-02T21:24:33.998301+00:00", "stage": "moltjobs", "allowance": {"freeBidsUsed": 1, "freeBidsLimit": 60, "paidBidsBalance": 0, "freeBidsRemaining": 59}, "scanned": 6, "fit": 1, "submitted": 0}
 {"ts": "2026-07-02T21:24:33.999250+00:00", "stage": "cycle_done", "elapsed_s": 20.06}
+{"ts": "2026-07-02T21:37:17.177461+00:00", "stage": "refresh", "raw": 104, "ranked": 40, "sources": ["dev.to", "github", "hackernews", "hackernews-algolia", "lobsters", "v2ex"]}
+{"ts": "2026-07-02T21:37:26.615501+00:00", "stage": "kv_push", "ok": true, "url": "https://aia-x402.rmalka06.workers.dev"}
+{"ts": "2026-07-02T21:37:26.689455+00:00", "stage": "dashboard", "path": "C:\\Users\\rmalk\\Projects\\razel369-aia\\aia\\index.html", "bytes": 22386}
+{"ts": "2026-07-02T21:37:30.281465+00:00", "stage": "moltjobs", "allowance": {"freeBidsUsed": 1, "freeBidsLimit": 60, "paidBidsBalance": 0, "freeBidsRemaining": 59}, "scanned": 6, "fit": 1, "submitted": 0}
+{"ts": "2026-07-02T21:37:31.033448+00:00", "stage": "poller", "scanned": 0, "in_flight": 0, "submitted": 0}
+{"ts": "2026-07-02T21:37:34.933451+00:00", "stage": "smoke", "url": "https://aia-x402.rmalka06.workers.dev/v1/signals?topics=ai-agents&limit=1", "stage_1_402": true, "stage_2_200": false, "payTo": "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e", "amount": "10000", "stage_2_error": "HTTP 500"}
+{"ts": "2026-07-02T21:37:38.830446+00:00", "stage": "cycle_done", "elapsed_s": 41.78}
+{"ts": "2026-07-02T21:39:32.854178+00:00", "stage": "refresh", "raw": 104, "ranked": 40, "sources": ["dev.to", "github", "hackernews", "hackernews-algolia", "lobsters", "v2ex"]}
+{"ts": "2026-07-02T21:39:37.871731+00:00", "stage": "kv_push", "ok": true, "url": "https://aia-x402.rmalka06.workers.dev"}
+{"ts": "2026-07-02T21:39:37.922737+00:00", "stage": "dashboard", "path": "C:\\Users\\rmalk\\Projects\\razel369-aia\\aia\\index.html", "bytes": 22234}
+{"ts": "2026-07-02T21:39:38.828738+00:00", "stage": "moltjobs", "allowance": {"freeBidsUsed": 1, "freeBidsLimit": 60, "paidBidsBalance": 0, "freeBidsRemaining": 59}, "scanned": 6, "fit": 1, "submitted": 0}
+{"ts": "2026-07-02T21:39:39.388738+00:00", "stage": "poller", "scanned": 0, "in_flight": 0, "submitted": 0}
+{"ts": "2026-07-02T21:39:40.630735+00:00", "stage": "smoke", "url": "https://aia-x402.rmalka06.workers.dev/v1/signals?topics=ai-agents&limit=1", "stage_1_402": true, "stage_2_200": true, "payTo": "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e", "amount": "10000", "payment_response": true, "response_bytes": 821}
+{"ts": "2026-07-02T21:39:43.204731+00:00", "stage": "cycle_done", "elapsed_s": 32.05}
