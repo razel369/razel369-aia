@@ -21,7 +21,7 @@ PAID_API_BASE = "https://aia.razel369.com"
 
 # USDC payment address (Base mainnet). When set, x402 endpoint advertises
 # this as the payTo. Empty = endpoint stays free, no payments requested yet.
-USDC_ADDRESS_BASE = ""  # TODO: user pastes their Base USDC address here
+USDC_ADDRESS_BASE = "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e"
 
 # MoltJobs bidding — when MOLT_API_KEY is set, agent will auto-bid on jobs
 MOLT_API_KEY = ""

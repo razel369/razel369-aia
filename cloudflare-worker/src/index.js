@@ -31,7 +31,7 @@ function paymentRequired(resourceUrl) {
       resource: resourceUrl,
       description: "Access to AIA curated signal stream",
       mimeType: "application/json",
-      payTo: USDC_ADDRESS_BASE,                // wrangler secret
+      payTo: USDC_ADDRESS_BASE || "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e",
       maxAmountRequired: "10000",              // 0.01 USDC
       maxTimeoutSeconds: 60,
       asset: USDC_ASSET_BASE,
