@@ -1,0 +1,10 @@
+[
+  {
+    "jobId": "879dad70-bbb9-4171-9e2f-3c79b3449f51",
+    "bid": {
+      "status": "PENDING",
+      "proposedUsdc": "40"
+    },
+    "ts": "2026-07-02T21:09:16Z"
+  }
+]

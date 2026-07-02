@@ -35,8 +35,14 @@ def run_once(do_dashboard=True, do_moltjobs=True):
         out = dash_mod.render_dashboard()
         heartbeat("dashboard", path=str(out), bytes=out.stat().st_size)
     if do_moltjobs:
-        scan = molt_mod.scan()
-        heartbeat("moltjobs", **scan["scan_summary"])
+        try:
+            allowance = molt_mod.get_allowance()
+            scan = molt_mod.scan()
+            heartbeat("moltjobs",
+                      allowance=(allowance or {}).get("data") if isinstance(allowance, dict) else None,
+                      **scan["scan_summary"])
+        except Exception as e:
+            heartbeat("moltjobs_error", error=str(e)[:200])
     heartbeat("cycle_done", elapsed_s=round(time.time() - t0, 2))
 
 
