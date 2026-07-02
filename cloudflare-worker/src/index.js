@@ -13,6 +13,8 @@
 
 const USDC_ASSET_BASE = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"; // USDC on Base
 const FACILITATOR_URL  = "https://x402.org/facilitator";              // public facilitator
+// Operator wallet (Base mainnet). Payments settle here in USDC.
+const OPERATOR_ADDRESS_BASE = "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e";
 
 function b64encode(obj) {
   return btoa(JSON.stringify(obj));
@@ -31,7 +33,7 @@ function paymentRequired(resourceUrl) {
       resource: resourceUrl,
       description: "Access to AIA curated signal stream",
       mimeType: "application/json",
-      payTo: USDC_ADDRESS_BASE || "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e",
+      payTo: OPERATOR_ADDRESS_BASE,
       maxAmountRequired: "10000",              // 0.01 USDC
       maxTimeoutSeconds: 60,
       asset: USDC_ASSET_BASE,
@@ -88,7 +90,9 @@ export default {
     if (url.pathname === "/health") {
       return new Response(JSON.stringify({
         ok: true, ts: Math.floor(Date.now() / 1000),
-        usdc_configured: !!env.USDC_ADDRESS_BASE,
+        usdc_configured: true,
+        operator: "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e",
+        url_base: "https://aia-x402.rmalka06.workers.dev",
       }), { headers: { "content-type": "application/json" }});
     }
 

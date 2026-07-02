@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T21:13:25Z",
+  "generated_at": "2026-07-02T21:24:30Z",
   "agent": "AIA — Autonomous Insight Agent",
   "version": "0.1.0",
   "raw_collected": 104,
@@ -18,14 +18,14 @@
       "source": "github",
       "title": "deepseek-ai/DeepSpec — DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
       "url": "https://github.com/deepseek-ai/DeepSpec",
-      "score": 5867,
+      "score": 5868,
       "comments": 33,
       "ts": 1782466565,
       "topics": [
         "crypto"
       ],
       "recency": 0.002,
-      "final_score": 4622.31,
+      "final_score": 4622.97,
       "flagged": false
     },
     {
@@ -33,12 +33,12 @@
       "source": "hackernews",
       "title": "Android Developer Verification: Threat masquerading as protection",
       "url": "https://f-droid.org/2026/07/01/adv-malware.html",
-      "score": 1521,
-      "comments": 630,
+      "score": 1526,
+      "comments": 635,
       "ts": 1782961215,
       "topics": [],
-      "recency": 0.468,
-      "final_score": 1623.85,
+      "recency": 0.464,
+      "final_score": 1624.85,
       "flagged": false
     },
     {
@@ -46,29 +46,14 @@
       "source": "hackernews",
       "title": "PeerTube is a free, decentralized and federated video platform",
       "url": "https://github.com/Chocobozzz/PeerTube",
-      "score": 393,
-      "comments": 169,
+      "score": 404,
+      "comments": 175,
       "ts": 1782991065,
       "topics": [
         "devtools"
       ],
-      "recency": 0.661,
-      "final_score": 1038.1,
-      "flagged": false
-    },
-    {
-      "id": "hn-48756602",
-      "source": "hackernews",
-      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
-      "score": 388,
-      "comments": 162,
-      "ts": 1782966761,
-      "topics": [
-        "devtools"
-      ],
-      "recency": 0.499,
-      "final_score": 864.96,
+      "recency": 0.656,
+      "final_score": 1064.25,
       "flagged": false
     },
     {
@@ -76,7 +61,7 @@
       "source": "github",
       "title": "Kulaxyz/self-learning-skills — A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
       "url": "https://github.com/Kulaxyz/self-learning-skills",
-      "score": 889,
+      "score": 891,
       "comments": 1,
       "ts": 1782664236,
       "topics": [
@@ -85,7 +70,22 @@
         "web3-agents"
       ],
       "recency": 0.015,
-      "final_score": 722.61,
+      "final_score": 724.04,
+      "flagged": false
+    },
+    {
+      "id": "hna-48756602",
+      "source": "hackernews-algolia",
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
+      "score": 390,
+      "comments": 163,
+      "ts": 1782966761,
+      "topics": [
+        "devtools"
+      ],
+      "recency": 0.495,
+      "final_score": 721.71,
       "flagged": false
     },
     {
@@ -100,8 +100,21 @@
         "ai-agents",
         "web3-agents"
       ],
-      "recency": 0.052,
-      "final_score": 659.77,
+      "recency": 0.051,
+      "final_score": 659.23,
+      "flagged": false
+    },
+    {
+      "id": "hn-48762725",
+      "source": "hackernews",
+      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
+      "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+      "score": 440,
+      "comments": 135,
+      "ts": 1783004546,
+      "topics": [],
+      "recency": 0.767,
+      "final_score": 582.46,
       "flagged": false
     },
     {
@@ -114,20 +127,7 @@
       "ts": 1782619695,
       "topics": [],
       "recency": 0.009,
-      "final_score": 570.99,
-      "flagged": false
-    },
-    {
-      "id": "hn-48762725",
-      "source": "hackernews",
-      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
-      "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-      "score": 424,
-      "comments": 128,
-      "ts": 1783004546,
-      "topics": [],
-      "recency": 0.773,
-      "final_score": 562.14,
+      "final_score": 570.9,
       "flagged": false
     },
     {
@@ -135,12 +135,12 @@
       "source": "hackernews",
       "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
       "url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
-      "score": 389,
-      "comments": 182,
+      "score": 393,
+      "comments": 183,
       "ts": 1782998725,
       "topics": [],
-      "recency": 0.723,
-      "final_score": 556.95,
+      "recency": 0.717,
+      "final_score": 559.08,
       "flagged": false
     },
     {
@@ -148,12 +148,12 @@
       "source": "hackernews",
       "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
       "url": "https://mathstodon.xyz/@iblech/116769502749142438",
-      "score": 332,
-      "comments": 162,
+      "score": 337,
+      "comments": 163,
       "ts": 1783005916,
       "topics": [],
-      "recency": 0.785,
-      "final_score": 508.78,
+      "recency": 0.779,
+      "final_score": 512.34,
       "flagged": false
     },
     {
@@ -161,12 +161,12 @@
       "source": "github",
       "title": "mekos2772/ios-location-spoofer — Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
       "url": "https://github.com/mekos2772/ios-location-spoofer",
-      "score": 1070,
+      "score": 1071,
       "comments": 1,
       "ts": 1782807630,
       "topics": [],
       "recency": 0.079,
-      "final_score": 497.11,
+      "final_score": 496.98,
       "flagged": false
     },
     {
@@ -174,12 +174,12 @@
       "source": "hackernews",
       "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
       "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
-      "score": 315,
-      "comments": 171,
+      "score": 323,
+      "comments": 175,
       "ts": 1782999821,
       "topics": [],
-      "recency": 0.732,
-      "final_score": 478.56,
+      "recency": 0.726,
+      "final_score": 487.89,
       "flagged": false
     },
     {
@@ -192,7 +192,22 @@
       "ts": 1782631482,
       "topics": [],
       "recency": 0.01,
-      "final_score": 442.51,
+      "final_score": 442.43,
+      "flagged": false
+    },
+    {
+      "id": "hn-48766076",
+      "source": "hackernews",
+      "title": "Job seekers giving up: Labor force participation falls to lowest in 50 years",
+      "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
+      "score": 98,
+      "comments": 87,
+      "ts": 1783019780,
+      "topics": [
+        "devtools"
+      ],
+      "recency": 0.915,
+      "final_score": 428.82,
       "flagged": false
     },
     {
@@ -200,12 +215,12 @@
       "source": "hackernews",
       "title": "The primary purpose of code review is to find code that will be hard to maintain",
       "url": "https://mathstodon.xyz/@mjd/115096720350507897",
-      "score": 292,
-      "comments": 155,
+      "score": 296,
+      "comments": 156,
       "ts": 1782992487,
       "topics": [],
-      "recency": 0.672,
-      "final_score": 417.94,
+      "recency": 0.667,
+      "final_score": 420.59,
       "flagged": false
     },
     {
@@ -218,8 +233,8 @@
       "ts": 1782960727,
       "lang": "zh",
       "topics": [],
-      "recency": 0.465,
-      "final_score": 417.91,
+      "recency": 0.462,
+      "final_score": 416.24,
       "flagged": false
     },
     {
@@ -234,7 +249,7 @@
         "devtools"
       ],
       "recency": 0.001,
-      "final_score": 405.85,
+      "final_score": 405.84,
       "flagged": false
     },
     {
@@ -249,22 +264,7 @@
         "devtools"
       ],
       "recency": 0.001,
-      "final_score": 391.83,
-      "flagged": false
-    },
-    {
-      "id": "hn-48766076",
-      "source": "hackernews",
-      "title": "Job seekers giving up: Labor force participation falls to lowest in 50 years",
-      "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
-      "score": 90,
-      "comments": 76,
-      "ts": 1783019780,
-      "topics": [
-        "devtools"
-      ],
-      "recency": 0.922,
-      "final_score": 387.97,
+      "final_score": 391.82,
       "flagged": false
     },
     {
@@ -272,7 +272,7 @@
       "source": "github",
       "title": "lycorp-jp/sim-use — Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.",
       "url": "https://github.com/lycorp-jp/sim-use",
-      "score": 451,
+      "score": 452,
       "comments": 12,
       "ts": 1782442796,
       "topics": [
@@ -280,7 +280,7 @@
         "web3-agents"
       ],
       "recency": 0.001,
-      "final_score": 366.03,
+      "final_score": 366.8,
       "flagged": false
     },
     {
@@ -295,7 +295,20 @@
         "devtools"
       ],
       "recency": 0.001,
-      "final_score": 338.74,
+      "final_score": 338.73,
+      "flagged": false
+    },
+    {
+      "id": "hn-48762098",
+      "source": "hackernews",
+      "title": "Podman v6.0.0",
+      "url": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
+      "score": 242,
+      "comments": 95,
+      "ts": 1783002189,
+      "topics": [],
+      "recency": 0.746,
+      "final_score": 337.52,
       "flagged": false
     },
     {
@@ -303,12 +316,12 @@
       "source": "hackernews",
       "title": "How to ask for help from people who don't know you",
       "url": "https://pradyuprasad.com/writings/how-to-ask-for-help/",
-      "score": 290,
-      "comments": 40,
+      "score": 294,
+      "comments": 41,
       "ts": 1782998362,
       "topics": [],
-      "recency": 0.719,
-      "final_score": 323.07,
+      "recency": 0.714,
+      "final_score": 326.31,
       "flagged": false
     },
     {
@@ -323,20 +336,7 @@
         "devtools"
       ],
       "recency": 0.008,
-      "final_score": 321.07,
-      "flagged": false
-    },
-    {
-      "id": "hn-48762098",
-      "source": "hackernews",
-      "title": "Podman v6.0.0",
-      "url": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
-      "score": 230,
-      "comments": 88,
-      "ts": 1783002189,
-      "topics": [],
-      "recency": 0.752,
-      "final_score": 320.34,
+      "final_score": 321.03,
       "flagged": false
     },
     {
@@ -345,13 +345,13 @@
       "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
       "url": "https://manufact.com",
       "score": 88,
-      "comments": 57,
+      "comments": 58,
       "ts": 1783005080,
       "topics": [
         "ai-agents"
       ],
-      "recency": 0.778,
-      "final_score": 303.97,
+      "recency": 0.772,
+      "final_score": 304.49,
       "flagged": false
     },
     {
@@ -367,7 +367,7 @@
         "web3-agents"
       ],
       "recency": 0.002,
-      "final_score": 287.37,
+      "final_score": 287.36,
       "flagged": false
     },
     {
@@ -382,7 +382,7 @@
         "crypto"
       ],
       "recency": 0.001,
-      "final_score": 284.9,
+      "final_score": 284.89,
       "flagged": false
     },
     {
@@ -395,8 +395,8 @@
       "ts": 1782971710,
       "lang": "zh",
       "topics": [],
-      "recency": 0.529,
-      "final_score": 284.2,
+      "recency": 0.524,
+      "final_score": 283.0,
       "flagged": false
     },
     {
@@ -404,12 +404,25 @@
       "source": "hackernews",
       "title": "The fall of the theorem economy",
       "url": "https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy",
-      "score": 229,
-      "comments": 98,
+      "score": 230,
+      "comments": 99,
       "ts": 1782979275,
       "topics": [],
-      "recency": 0.577,
-      "final_score": 280.4,
+      "recency": 0.572,
+      "final_score": 280.85,
+      "flagged": false
+    },
+    {
+      "id": "hn-48765663",
+      "source": "hackernews",
+      "title": "Exapunks (2018)",
+      "url": "https://www.zachtronics.com/exapunks/",
+      "score": 156,
+      "comments": 53,
+      "ts": 1783017679,
+      "topics": [],
+      "recency": 0.893,
+      "final_score": 237.54,
       "flagged": false
     },
     {
@@ -422,20 +435,7 @@
       "ts": 1782620032,
       "topics": [],
       "recency": 0.009,
-      "final_score": 229.77,
-      "flagged": false
-    },
-    {
-      "id": "hn-48765663",
-      "source": "hackernews",
-      "title": "Exapunks (2018)",
-      "url": "https://www.zachtronics.com/exapunks/",
-      "score": 147,
-      "comments": 51,
-      "ts": 1783017679,
-      "topics": [],
-      "recency": 0.9,
-      "final_score": 226.51,
+      "final_score": 229.73,
       "flagged": false
     },
     {
@@ -448,7 +448,7 @@
       "ts": 1782503986,
       "topics": [],
       "recency": 0.002,
-      "final_score": 223.13,
+      "final_score": 223.12,
       "flagged": false
     },
     {
@@ -462,8 +462,21 @@
       "topics": [
         "devtools"
       ],
-      "recency": 0.75,
-      "final_score": 200.0,
+      "recency": 0.744,
+      "final_score": 199.03,
+      "flagged": false
+    },
+    {
+      "id": "gh-1282544248",
+      "source": "github",
+      "title": "diinki/linux-antiquity — A highly tasteful Linux-theme, reminiscent of art-nouveau and old drawings related to astronomy, science, and mythology.",
+      "url": "https://github.com/diinki/linux-antiquity",
+      "score": 494,
+      "comments": 1,
+      "ts": 1782590760,
+      "topics": [],
+      "recency": 0.006,
+      "final_score": 197.9,
       "flagged": false
     },
     {
@@ -476,21 +489,8 @@
       "ts": 1782983609,
       "lang": "zh",
       "topics": [],
-      "recency": 0.607,
-      "final_score": 197.81,
-      "flagged": false
-    },
-    {
-      "id": "gh-1282544248",
-      "source": "github",
-      "title": "diinki/linux-antiquity — A highly tasteful Linux-theme, reminiscent of art-nouveau and old drawings related to astronomy, science, and mythology.",
-      "url": "https://github.com/diinki/linux-antiquity",
-      "score": 493,
-      "comments": 1,
-      "ts": 1782590760,
-      "topics": [],
-      "recency": 0.006,
-      "final_score": 197.53,
+      "recency": 0.602,
+      "final_score": 196.92,
       "flagged": false
     },
     {
@@ -503,8 +503,8 @@
       "ts": 1782955452,
       "lang": "zh",
       "topics": [],
-      "recency": 0.438,
-      "final_score": 194.45,
+      "recency": 0.435,
+      "final_score": 193.69,
       "flagged": false
     },
     {
@@ -517,8 +517,8 @@
       "ts": 1782957201,
       "lang": "zh",
       "topics": [],
-      "recency": 0.447,
-      "final_score": 184.44,
+      "recency": 0.443,
+      "final_score": 183.72,
       "flagged": false
     },
     {
@@ -531,7 +531,7 @@
       "ts": 1782455391,
       "topics": [],
       "recency": 0.001,
-      "final_score": 178.4,
+      "final_score": 178.39,
       "flagged": false
     },
     {
@@ -544,7 +544,7 @@
       "ts": 1782488247,
       "topics": [],
       "recency": 0.002,
-      "final_score": 164.16,
+      "final_score": 164.15,
       "flagged": false
     },
     {
@@ -557,8 +557,8 @@
       "ts": 1782970464,
       "lang": "zh",
       "topics": [],
-      "recency": 0.521,
-      "final_score": 162.84,
+      "recency": 0.517,
+      "final_score": 162.16,
       "flagged": false
     },
     {
@@ -571,7 +571,7 @@
       "ts": 1782561766,
       "topics": [],
       "recency": 0.005,
-      "final_score": 158.86,
+      "final_score": 158.84,
       "flagged": false
     }
   ]

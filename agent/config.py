@@ -16,8 +16,11 @@ LOGS_DIR.mkdir(parents=True, exist_ok=True)
 TOP_N = 40
 
 # x402 endpoint — the public URL where agents/buyers can call the paid API
-# In production this is the Cloudflare Worker URL; locally it's the dashboard
-PAID_API_BASE = "https://aia.razel369.com"
+# In production this is the Cloudflare Worker URL
+PAID_API_BASE = "https://aia-x402.rmalka06.workers.dev"
+
+# Cloudflare KV namespace id (for pushing feed.json after every refresh)
+CLOUDFLARE_KV_NAMESPACE_ID = "bd4e22823cc5435da05a9f7baee186be"
 
 # USDC payment address (Base mainnet). When set, x402 endpoint advertises
 # this as the payTo. Empty = endpoint stays free, no payments requested yet.
