@@ -31,13 +31,18 @@ USDC_ADDRESS_BASE = "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e"
 # NEVER commit the key; never paste it into a tracker.
 import os
 from pathlib import Path
-_key_file = (Path(__file__).resolve().parent.parent / ".agent-credentials" / "molt.key")
-try:
-    _key_val = _key_file.read_text(encoding="utf-8-sig").strip() if _key_file.exists() else ""
-except Exception:
-    _key_val = ""
-MOLT_API_KEY = _key_val or os.environ.get("MOLT_API_KEY", "")
+_creds = Path(__file__).resolve().parent.parent / ".agent-credentials"
+def _load(filename, envname):
+    p = _creds / filename
+    try:
+        v = p.read_text(encoding="utf-8-sig").strip() if p.exists() else ""
+    except Exception:
+        v = ""
+    return v or os.environ.get(envname, "")
+
+MOLT_API_KEY = _load("molt.key", "MOLT_API_KEY")
 MOLT_API_BASE = "https://api.moltjobs.io/v1"
+DEVTO_API_KEY = _load("devto.key", "DEVTO_API_KEY")
 
 # Curator settings
 NICHE_KEYWORDS = {

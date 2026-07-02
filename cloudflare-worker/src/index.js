@@ -131,6 +131,16 @@ export default {
         usdc_configured: true,
         operator: "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e",
         url_base: "https://aia-x402.rmalka06.workers.dev",
+        x402_version: 2,
+        bazaar_extension: true,
+        facilitator: FACILITATOR_URL,
+        routes: [
+          { path: "/v1/signals",  price: "10000 (0.01 USDC)",  type: "http", description: "Filtered curated signal stream (JSON)" },
+          { path: "/v1/digest",   price: "3000 (0.003 USDC)",  type: "http", description: "One-paragraph daily digest (plain text)" },
+          { path: "/v1/alerts",   price: "5000 (0.005 USDC)",  type: "http", description: "Webhook subscription preview" },
+          { path: "mcp://aia/curate", price: "10000 (0.01 USDC)", type: "mcp", description: "MCP tool: curated signals (topics, limit)" },
+          { path: "mcp://aia/digest",  price: "3000 (0.003 USDC)", type: "mcp", description: "MCP tool: daily digest" },
+        ],
       }), { headers: { "content-type": "application/json" }});
     }
 
@@ -223,6 +233,59 @@ export default {
       },
       facilitator: FACILITATOR_URL,
       operator: OPERATOR_ADDRESS_BASE,
+      extensions: {
+        bazaar: {
+          type: "discoverable",
+          services: [
+            {
+              type: "http",
+              resource: "https://aia-x402.rmalka06.workers.dev/v1/signals",
+              description: "Filtered curated AI signal stream",
+              inputSchema: {
+                type: "object",
+                properties: { topics: { type: "string" }, limit: { type: "integer" } },
+                required: [],
+              },
+            },
+            {
+              type: "http",
+              resource: "https://aia-x402.rmalka06.workers.dev/v1/digest",
+              description: "One-paragraph daily digest (plain text)",
+              inputSchema: {
+                type: "object",
+                properties: { topics: { type: "string" } },
+                required: [],
+              },
+            },
+            {
+              type: "mcp",
+              toolName: "aia_curate",
+              resource: "mcp://aia/curate",
+              description: "MCP tool: get curated AI-agent signals",
+              transport: "streamable-http",
+              inputSchema: {
+                type: "object",
+                properties: { topics: { type: "string" }, limit: { type: "integer" } },
+                required: [],
+              },
+              example: { topics: "ai-agents", limit: 5 },
+            },
+            {
+              type: "mcp",
+              toolName: "aia_digest",
+              resource: "mcp://aia/digest",
+              description: "MCP tool: get daily digest in plain text",
+              transport: "streamable-http",
+              inputSchema: {
+                type: "object",
+                properties: { topics: { type: "string" } },
+                required: [],
+              },
+              example: { topics: "x402" },
+            },
+          ],
+        },
+      },
     }, { status: 404 });
   },
 };

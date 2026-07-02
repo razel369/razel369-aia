@@ -12,9 +12,9 @@ API = "https://dev.to/api/articles"
 POST_PATH = Path(__file__).parent / "launch_post.md"
 
 def _read_post():
-    text = POST_PATH.read_text(encoding="utf-8")
+    text = POST_PATH.read_text(encoding="utf-8-sig")
     # Split frontmatter
-    if not text.startswith("---"):
+    if not text.lstrip().startswith("---"):
         return None, text
     end = text.find("---", 3)
     if end == -1:
@@ -29,7 +29,12 @@ def _read_post():
     return meta, body
 
 def main(dry_run=False):
-    api_key = os.environ.get("DEVTO_API_KEY")
+    try:
+        from agent import config as _cfg
+        api_key = _cfg.DEVTO_API_KEY
+    except Exception:
+        api_key = ""
+    api_key = api_key or os.environ.get("DEVTO_API_KEY")
     if not api_key:
         print("DEVTO_API_KEY not set — skipping dev.to cross-post.")
         print("Set it with:  $env:DEVTO_API_KEY = 'your-key'")
@@ -43,7 +48,7 @@ def main(dry_run=False):
             "title": meta.get("title", "AIA — Autonomous Insight Agent"),
             "published": str(meta.get("published", "true")).lower() == "true",
             "body_markdown": body,
-            "tags": meta.get("tags", "ai,opensource,agents").split(","),
+            "tags": [t.strip() for t in meta.get("tags", "ai,opensource,agents,web3").split(",")][:4],
             "canonical_url": meta.get("canonical_url", ""),
             "description": meta.get("description", ""),
         }
@@ -54,7 +59,8 @@ def main(dry_run=False):
     req = urllib.request.Request(
         API,
         data=json.dumps(payload).encode("utf-8"),
-        headers={"api-key": api_key, "Content-Type": "application/json"},
+        headers={"api-key": api_key, "Content-Type": "application/json",
+                 "User-Agent": "AIA-Agent/0.1", "Accept": "application/json"},
         method="POST",
     )
     try:
