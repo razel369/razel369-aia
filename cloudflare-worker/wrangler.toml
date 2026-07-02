@@ -1,0 +1,12 @@
+name = "aia-x402"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+# Set this to a Base mainnet USDC address you control
+# wrangler secret put USDC_ADDRESS_BASE
+# (do NOT commit the real address)
+
+[[kv_namespaces]]
+binding = "AIA_KV"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"

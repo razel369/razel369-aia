@@ -1,0 +1,4 @@
+{"ts": "2026-07-02T17:25:16.128973+00:00", "stage": "refresh", "raw": 105, "ranked": 40, "sources": ["dev.to", "github", "hackernews", "hackernews-algolia", "lobsters", "v2ex"]}
+{"ts": "2026-07-02T17:25:16.156966+00:00", "stage": "dashboard", "path": "C:\\Users\\rmalk\\Projects\\razel369-aia\\aia\\index.html", "bytes": 22291}
+{"ts": "2026-07-02T17:25:16.156966+00:00", "stage": "moltjobs", "scanned": 0, "fit": 0, "submitted": 0}
+{"ts": "2026-07-02T17:25:16.158963+00:00", "stage": "cycle_done", "elapsed_s": 20.23}
