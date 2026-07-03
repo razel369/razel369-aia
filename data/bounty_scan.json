@@ -1,0 +1,1779 @@
+{
+  "scanned_at": "2026-07-03T00:06:05.997496+00:00",
+  "total": 197,
+  "items": [
+    {
+      "key": "illbnm/homelab-stack#9",
+      "title": "[BOUNTY $300] SSO — Authentik 统一身份认证",
+      "url": "https://github.com/illbnm/homelab-stack/issues/9",
+      "usdc": 300,
+      "labels": "bounty,hard",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#10",
+      "title": "[BOUNTY $280] Observability — Prometheus + Grafana + Loki + Alerting",
+      "url": "https://github.com/illbnm/homelab-stack/issues/10",
+      "usdc": 280,
+      "labels": "bounty,hard",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#8",
+      "title": "[BOUNTY $250] Robustness — 国内网络适配 + 环境鲁棒性",
+      "url": "https://github.com/illbnm/homelab-stack/issues/8",
+      "usdc": 250,
+      "labels": "bounty,hard",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#6",
+      "title": "[BOUNTY $220] AI Stack — Ollama + Open WebUI + Stable Diffusion",
+      "url": "https://github.com/illbnm/homelab-stack/issues/6",
+      "usdc": 220,
+      "labels": "bounty,hard",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "claude-builders-bounty/claude-builders-bounty#5",
+      "title": "[BOUNTY $200] WORKFLOW: n8n + Claude Code — automated weekly dev summary",
+      "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+      "usdc": 200,
+      "labels": "bounty,workflow",
+      "age_days": 97,
+      "created": "2026-03-27"
+    },
+    {
+      "key": "illbnm/homelab-stack#14",
+      "title": "[BOUNTY $200] Testing — 自动化测试套件",
+      "url": "https://github.com/illbnm/homelab-stack/issues/14",
+      "usdc": 200,
+      "labels": "bounty,hard",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#1",
+      "title": "[BOUNTY $180] Base Infrastructure — Traefik + Portainer + Watchtower",
+      "url": "https://github.com/illbnm/homelab-stack/issues/1",
+      "usdc": 180,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "claude-builders-bounty/claude-builders-bounty#4",
+      "title": "[BOUNTY $150] AGENT: Claude Code sub-agent that reviews a PR and posts a structured comment",
+      "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
+      "usdc": 150,
+      "labels": "bounty,agent",
+      "age_days": 97,
+      "created": "2026-03-27"
+    },
+    {
+      "key": "illbnm/homelab-stack#3",
+      "title": "[BOUNTY $150] Storage Stack — Nextcloud + MinIO + FileBrowser",
+      "url": "https://github.com/illbnm/homelab-stack/issues/3",
+      "usdc": 150,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#12",
+      "title": "[BOUNTY $150] Backup & DR — 自动备份 + 灾难恢复",
+      "url": "https://github.com/illbnm/homelab-stack/issues/12",
+      "usdc": 150,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "claude-builders-bounty/claude-builders-bounty#3",
+      "title": "[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destructive bash commands",
+      "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
+      "usdc": 100,
+      "labels": "bounty,hook,security",
+      "age_days": 97,
+      "created": "2026-03-27"
+    },
+    {
+      "key": "claude-builders-bounty/claude-builders-bounty#2",
+      "title": "[BOUNTY $75] TEMPLATE: CLAUDE.md for a Next.js + SQLite SaaS project",
+      "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+      "usdc": 75,
+      "labels": "bounty,template",
+      "age_days": 97,
+      "created": "2026-03-27"
+    },
+    {
+      "key": "claude-builders-bounty/claude-builders-bounty#1",
+      "title": "[BOUNTY $50] SKILL: Generate a structured CHANGELOG from git history",
+      "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+      "usdc": 50,
+      "labels": "bounty,skill,good first issue",
+      "age_days": 97,
+      "created": "2026-03-27"
+    },
+    {
+      "key": "SudoPacman-Syuu/Beatrix-cli#2",
+      "title": "Bounty-hunt deprecated",
+      "url": "https://github.com/SudoPacman-Syuu/Beatrix-cli/issues/2",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 0,
+      "created": "2026-07-02"
+    },
+    {
+      "key": "MosslandOpenDevs/pixel-agent-lab#1",
+      "title": "monitor.moss.land 거버넌스 위젯 항상 Offline(0/3) — CORS 오리진 apex 고정 + ao-api 500",
+      "url": "https://github.com/MosslandOpenDevs/pixel-agent-lab/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1,
+      "created": "2026-07-01"
+    },
+    {
+      "key": "xevrion-v2/agent-playground#3091",
+      "title": "[bounty] Add escape RegExp",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/3091",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 2,
+      "created": "2026-06-30"
+    },
+    {
+      "key": "xevrion-v2/agent-playground#2870",
+      "title": "[bounty] Add slugify helper",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/2870",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 2,
+      "created": "2026-06-30"
+    },
+    {
+      "key": "xevrion-v2/agent-playground#2817",
+      "title": "[bounty] Add pagination helper",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/2817",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 2,
+      "created": "2026-06-30"
+    },
+    {
+      "key": "attogram/dada-vibing#208",
+      "title": "YouTube - Expand!",
+      "url": "https://github.com/attogram/dada-vibing/issues/208",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 2,
+      "created": "2026-06-30"
+    },
+    {
+      "key": "SecureBananaLabs/bug-bounty#9154",
+      "title": "Message routes should require authentication",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9154",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 3,
+      "created": "2026-06-29"
+    },
+    {
+      "key": "SecureBananaLabs/bug-bounty#9152",
+      "title": "Invalid PORT env crashes API startup",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9152",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 3,
+      "created": "2026-06-29"
+    },
+    {
+      "key": "zhangjiayang6835-cyber/ai-research#9",
+      "title": "[🐛 Bounty] Insecure Deserialization — ",
+      "url": "https://github.com/zhangjiayang6835-cyber/ai-research/issues/9",
+      "usdc": 0,
+      "labels": "honeypot-task,bounty,deserialization",
+      "age_days": 3,
+      "created": "2026-06-29"
+    },
+    {
+      "key": "dwebagents/AgentPipe#1899",
+      "title": "[bounty: DEX] implement dex",
+      "url": "https://github.com/dwebagents/AgentPipe/issues/1899",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 3,
+      "created": "2026-06-29"
+    },
+    {
+      "key": "xevrion-v2/agent-playground#2418",
+      "title": "[agent] Add parseable bounty marker to bounty issue template",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/2418",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 4,
+      "created": "2026-06-28"
+    },
+    {
+      "key": "Dragoon4002/artic-trader#2",
+      "title": "Improvements Bounty: Performance Enhancer",
+      "url": "https://github.com/Dragoon4002/artic-trader/issues/2",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 4,
+      "created": "2026-06-28"
+    },
+    {
+      "key": "dwebagents/AgentPipe#1875",
+      "title": "[Bounty: 71] shop page",
+      "url": "https://github.com/dwebagents/AgentPipe/issues/1875",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 4,
+      "created": "2026-06-28"
+    },
+    {
+      "key": "impartshadow/echo-site#1",
+      "title": "Shadow public falsification bounty",
+      "url": "https://github.com/impartshadow/echo-site/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 5,
+      "created": "2026-06-27"
+    },
+    {
+      "key": "vansh-09/BountyScout#179",
+      "title": "🎯 Bounty Alert: 10 New Opportunityies found",
+      "url": "https://github.com/vansh-09/BountyScout/issues/179",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 7,
+      "created": "2026-06-25"
+    },
+    {
+      "key": "dev-kp-eloper/BountyScout#294",
+      "title": "🎯 Bounty Alert: 11 New Opportunityies found",
+      "url": "https://github.com/dev-kp-eloper/BountyScout/issues/294",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 7,
+      "created": "2026-06-25"
+    },
+    {
+      "key": "greyw0rks/bountyscout#68",
+      "title": "🎯 Bounty Alert: 21 New Opportunities — 2026-06-25 00:13 UTC",
+      "url": "https://github.com/greyw0rks/bountyscout/issues/68",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 7,
+      "created": "2026-06-25"
+    },
+    {
+      "key": "vansh-09/BountyScout#182",
+      "title": "🎯 Bounty Alert: 16 New Opportunityies found",
+      "url": "https://github.com/vansh-09/BountyScout/issues/182",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 7,
+      "created": "2026-06-25"
+    },
+    {
+      "key": "lk251/agent-bounty-market#10",
+      "title": "[P0][LIVE 3/5] Complete the real GitHub issue → claim → PR → check/receipt lifecycle",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/10",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "lk251/agent-bounty-market#1",
+      "title": "[P0][1/5] Build the GitHub-native bounty event spine and contract protocol",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "vansh-09/BountyScout#171",
+      "title": "🎯 Bounty Alert: 15 New Opportunityies found",
+      "url": "https://github.com/vansh-09/BountyScout/issues/171",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "lk251/agent-bounty-market#8",
+      "title": "[P0][LIVE 1/5] Run the project and solver decisions through real Hermes Agent + NVIDIA Nemotron",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/8",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "dev-kp-eloper/BountyScout#286",
+      "title": "🎯 Bounty Alert: 17 New Opportunityies found",
+      "url": "https://github.com/dev-kp-eloper/BountyScout/issues/286",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "lk251/agent-bounty-market#5",
+      "title": "[P0][5/5] Build the presentation-grade demo, reliability harness, and submission package",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/5",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "lk251/agent-bounty-market#9",
+      "title": "[P0][LIVE 2/5] Run Hermes and candidate verification inside real NVIDIA OpenShell / NemoClaw",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/9",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "lk251/agent-bounty-market#11",
+      "title": "[P0][LIVE 4/5] Execute the real split Stripe settlement and retained-credit spend loop",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/11",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "lk251/agent-bounty-market#2",
+      "title": "[P0][2/5] Implement the Hermes project-agent buyer: select, specify, price, reserve, and publish work",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/2",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "vansh-09/BountyScout#175",
+      "title": "🎯 Bounty Alert: 15 New Opportunityies found",
+      "url": "https://github.com/vansh-09/BountyScout/issues/175",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "lk251/agent-bounty-market#6",
+      "title": "[EXECUTION QUEUE] Codex: complete issues #1 → #5 autonomously through the hackathon release candidate",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/6",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "dev-kp-eloper/BountyScout#290",
+      "title": "🎯 Bounty Alert: 12 New Opportunityies found",
+      "url": "https://github.com/dev-kp-eloper/BountyScout/issues/290",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "lk251/agent-bounty-market#3",
+      "title": "[P0][3/5] Build specialized Hermes solver agents that discover, underwrite, claim, fix, and submit bounties",
+      "url": "https://github.com/lk251/agent-bounty-market/issues/3",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 8,
+      "created": "2026-06-24"
+    },
+    {
+      "key": "Bakomebandias/algora-bounty-sentinel#1",
+      "title": "Feedback welcome from Algora contributors",
+      "url": "https://github.com/Bakomebandias/algora-bounty-sentinel/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 9,
+      "created": "2026-06-23"
+    },
+    {
+      "key": "posocap/posocap.github.io#1",
+      "title": "Bounty",
+      "url": "https://github.com/posocap/posocap.github.io/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 9,
+      "created": "2026-06-23"
+    },
+    {
+      "key": "9904099/hammer-and-nail-bounty#1",
+      "title": "[$30 BOUNTY] [TypeScript] Add diagnostic metadata compare mode",
+      "url": "https://github.com/9904099/hammer-and-nail-bounty/issues/1",
+      "usdc": 0,
+      "labels": "help wanted,good first issue,bounty,language:typescript",
+      "age_days": 12,
+      "created": "2026-06-20"
+    },
+    {
+      "key": "chezgoulet/reachlock#41",
+      "title": "Bounty system: wanted status, bounty hunters, criminal record",
+      "url": "https://github.com/chezgoulet/reachlock/issues/41",
+      "usdc": 0,
+      "labels": "wave-3,content,combat",
+      "age_days": 12,
+      "created": "2026-06-20"
+    },
+    {
+      "key": "caydyan/zeroeye#1",
+      "title": "[$15 BOUNTY] [Go] Make analytics collector Start idempotent",
+      "url": "https://github.com/caydyan/zeroeye/issues/1",
+      "usdc": 0,
+      "labels": "help wanted,good first issue,bounty,language:go",
+      "age_days": 13,
+      "created": "2026-06-19"
+    },
+    {
+      "key": "KeygraphHQ/shannon#365",
+      "title": "feat(cli): ./shannon bounty subcommand + scope injection + bounty-mode prompt",
+      "url": "https://github.com/KeygraphHQ/shannon/issues/365",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 13,
+      "created": "2026-06-19"
+    },
+    {
+      "key": "Xwiuu/GhostMirror#16",
+      "title": "Bug Bounty Mode",
+      "url": "https://github.com/Xwiuu/GhostMirror/issues/16",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 13,
+      "created": "2026-06-19"
+    },
+    {
+      "key": "runxhq/runx#77",
+      "title": "runx skill: verifiable web research",
+      "url": "https://github.com/runxhq/runx/issues/77",
+      "usdc": 0,
+      "labels": "help wanted,good first issue,bounty",
+      "age_days": 14,
+      "created": "2026-06-18"
+    },
+    {
+      "key": "GautamKumarOffical/zeroeye#1",
+      "title": "Bounty: Precommit Hook",
+      "url": "https://github.com/GautamKumarOffical/zeroeye/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 14,
+      "created": "2026-06-18"
+    },
+    {
+      "key": "GautamKumarOffical/zeroeye#2",
+      "title": "Bounty: JSON Schema",
+      "url": "https://github.com/GautamKumarOffical/zeroeye/issues/2",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 14,
+      "created": "2026-06-18"
+    },
+    {
+      "key": "calumjs/ARMADA-Blog#89",
+      "title": "Bounty Tab",
+      "url": "https://github.com/calumjs/ARMADA-Blog/issues/89",
+      "usdc": 0,
+      "labels": "armada:flagged",
+      "age_days": 15,
+      "created": "2026-06-17"
+    },
+    {
+      "key": "calumjs/ARMADA-Blog#94",
+      "title": "Bounty Tab please!",
+      "url": "https://github.com/calumjs/ARMADA-Blog/issues/94",
+      "usdc": 0,
+      "labels": "armada:flagged",
+      "age_days": 15,
+      "created": "2026-06-17"
+    },
+    {
+      "key": "Quid-proquo/Quid#230",
+      "title": "[frontend] Mission board page",
+      "url": "https://github.com/Quid-proquo/Quid/issues/230",
+      "usdc": 0,
+      "labels": "frontend,feature,missions,hunter,ui",
+      "age_days": 15,
+      "created": "2026-06-17"
+    },
+    {
+      "key": "SgtClickClack/VectraFi#4",
+      "title": "feat: Implement Multi-Route DeFi Yield Aggregator Analytics Endpoint",
+      "url": "https://github.com/SgtClickClack/VectraFi/issues/4",
+      "usdc": 0,
+      "labels": "agent-bounty",
+      "age_days": 15,
+      "created": "2026-06-17"
+    },
+    {
+      "key": "xevrion-v2/agent-playground#1812",
+      "title": "Urgent – Payment Issue for Bounty #17",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 16,
+      "created": "2026-06-16"
+    },
+    {
+      "key": "valvepsro466/Support#189",
+      "title": "Payout blocked for validated bounties — is there a crypto alternative?",
+      "url": "https://github.com/valvepsro466/Support/issues/189",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 16,
+      "created": "2026-06-16"
+    },
+    {
+      "key": "Jarvichi/jarvs-amazing-web-game#1678",
+      "title": "Hub bounties: bounty-board interactable + modal UI + story",
+      "url": "https://github.com/Jarvichi/jarvs-amazing-web-game/issues/1678",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 17,
+      "created": "2026-06-15"
+    },
+    {
+      "key": "ichabodcole/spellbook#11",
+      "title": "bounty: surface wordmark still renders \"Tuskboard\" — regenerate as Bounty",
+      "url": "https://github.com/ichabodcole/spellbook/issues/11",
+      "usdc": 0,
+      "labels": "bug",
+      "age_days": 17,
+      "created": "2026-06-15"
+    },
+    {
+      "key": "vansh-09/BountyScout#102",
+      "title": "🎯 Bounty Alert: 12 New Opportunityies found",
+      "url": "https://github.com/vansh-09/BountyScout/issues/102",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 18,
+      "created": "2026-06-14"
+    },
+    {
+      "key": "Monkestation/Vanderlin#6733",
+      "title": "Bounties",
+      "url": "https://github.com/Monkestation/Vanderlin/issues/6733",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 18,
+      "created": "2026-06-14"
+    },
+    {
+      "key": "souleater06/mineagent#21",
+      "title": "Bounty",
+      "url": "https://github.com/souleater06/mineagent/issues/21",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 18,
+      "created": "2026-06-14"
+    },
+    {
+      "key": "Scottcjn/rustchain-bounties#13968",
+      "title": "[CLAIM] #13952 — [AGENT-BOUNTY: 25 RTC each] Native RustChain Tool for CrewAI / AutoGen / Phidata",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13968",
+      "usdc": 0,
+      "labels": "over-cap",
+      "age_days": 20,
+      "created": "2026-06-12"
+    },
+    {
+      "key": "MoonFuji/BountyScout#5",
+      "title": "🎯 Bounty Alert: 1 fresh fiat bounty",
+      "url": "https://github.com/MoonFuji/BountyScout/issues/5",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 21,
+      "created": "2026-06-11"
+    },
+    {
+      "key": "magpiecapital/magpie-x402#5",
+      "title": "Agent bounty program — pay for adoption (Lever 5)",
+      "url": "https://github.com/magpiecapital/magpie-x402/issues/5",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 23,
+      "created": "2026-06-09"
+    },
+    {
+      "key": "StellarX26/stellarX-workshop#158",
+      "title": "Solo Miah - Jeepney Tap-to-Pay — Micro‑Fare on Stellar",
+      "url": "https://github.com/StellarX26/stellarX-workshop/issues/158",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 24,
+      "created": "2026-06-08"
+    },
+    {
+      "key": "StellarX26/stellarX-workshop#159",
+      "title": "Solo Miah - Environmental-Cleanup-Reward",
+      "url": "https://github.com/StellarX26/stellarX-workshop/issues/159",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 24,
+      "created": "2026-06-08"
+    },
+    {
+      "key": "xevrion-v2/agent-playground#1035",
+      "title": "Seeded starter bounty issues omit parent bounty reference",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/1035",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 25,
+      "created": "2026-06-07"
+    },
+    {
+      "key": "algora-io/algora#329",
+      "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
+      "url": "https://github.com/algora-io/algora/issues/329",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 26,
+      "created": "2026-06-06"
+    },
+    {
+      "key": "vansh-09/BountyScout#29",
+      "title": "🎯 Bounty Alert: 17 New Opportunityies found",
+      "url": "https://github.com/vansh-09/BountyScout/issues/29",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 27,
+      "created": "2026-06-05"
+    },
+    {
+      "key": "dev-kp-eloper/BountyScout#115",
+      "title": "🎯 Bounty Alert: 19 New Opportunityies found",
+      "url": "https://github.com/dev-kp-eloper/BountyScout/issues/115",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 27,
+      "created": "2026-06-05"
+    },
+    {
+      "key": "xevrion-v2/agent-playground#687",
+      "title": "Bounty issue template omits required /bounty marker",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/687",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 27,
+      "created": "2026-06-05"
+    },
+    {
+      "key": "Marvin-The-Bodega-Cat/sleeping-soundly-on-the-rug#2",
+      "title": "Bounty: Chapter 2 \\u2014 Bounties Before Bags",
+      "url": "https://github.com/Marvin-The-Bodega-Cat/sleeping-soundly-on-the-rug/issues/2",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 27,
+      "created": "2026-06-05"
+    },
+    {
+      "key": "promptpolish-ai/git-context#2",
+      "title": "Add --json output mode (Bounty: $2 crypto)",
+      "url": "https://github.com/promptpolish-ai/git-context/issues/2",
+      "usdc": 0,
+      "labels": "bounty",
+      "age_days": 28,
+      "created": "2026-06-04"
+    },
+    {
+      "key": "proxima424/westworld#6465",
+      "title": "[post] The whole \"financial sovereignty for oppressed people\" pitch in...",
+      "url": "https://github.com/proxima424/westworld/issues/6465",
+      "usdc": 0,
+      "labels": "type:post,r/crypto",
+      "age_days": 29,
+      "created": "2026-06-03"
+    },
+    {
+      "key": "MoonFuji/BountyScout#3",
+      "title": "🎯 Bounty Alert: 2 fresh fiat bounties",
+      "url": "https://github.com/MoonFuji/BountyScout/issues/3",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 30,
+      "created": "2026-06-02"
+    },
+    {
+      "key": "valvepsro466/Support#48",
+      "title": "Unable to manage payout account - need to switch to USDC",
+      "url": "https://github.com/valvepsro466/Support/issues/48",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 32,
+      "created": "2026-05-31"
+    },
+    {
+      "key": "dev-kp-eloper/BountyScout#55",
+      "title": "🎯 Bounty Alert: 5 New Opportunityies found",
+      "url": "https://github.com/dev-kp-eloper/BountyScout/issues/55",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 33,
+      "created": "2026-05-30"
+    },
+    {
+      "key": "Arrow-air/website#167",
+      "title": "Test Bounty",
+      "url": "https://github.com/Arrow-air/website/issues/167",
+      "usdc": 0,
+      "labels": "bounty",
+      "age_days": 34,
+      "created": "2026-05-29"
+    },
+    {
+      "key": "ozpool/Perplex#151",
+      "title": "Liquidator service: perplex-cli risk subcommand",
+      "url": "https://github.com/ozpool/Perplex/issues/151",
+      "usdc": 0,
+      "labels": "enhancement",
+      "age_days": 35,
+      "created": "2026-05-28"
+    },
+    {
+      "key": "proxima424/westworld#4499",
+      "title": "[post] Oh please, spare me this \"web3 will bank the unbanked\" story again....",
+      "url": "https://github.com/proxima424/westworld/issues/4499",
+      "usdc": 0,
+      "labels": "type:post,r/crypto",
+      "age_days": 35,
+      "created": "2026-05-28"
+    },
+    {
+      "key": "mergeos-bounties/mergeos#64",
+      "title": "[300 MRG per PR] Test submitted PRs and verify bounty evidence",
+      "url": "https://github.com/mergeos-bounties/mergeos/issues/64",
+      "usdc": 0,
+      "labels": "bounty,evidence: missing,qa,reward:300-mrg",
+      "age_days": 36,
+      "created": "2026-05-27"
+    },
+    {
+      "key": "dev-kp-eloper/BountyScout#28",
+      "title": "🎯 Bounty Alert: 10 New Opportunityies found",
+      "url": "https://github.com/dev-kp-eloper/BountyScout/issues/28",
+      "usdc": 0,
+      "labels": "bounty-alert",
+      "age_days": 36,
+      "created": "2026-05-27"
+    },
+    {
+      "key": "ligate-io/ligate-chain#515",
+      "title": "ops: external security validation — audit + bug bounty + threat model (chain#360 child)",
+      "url": "https://github.com/ligate-io/ligate-chain/issues/515",
+      "usdc": 0,
+      "labels": "documentation,node,p2",
+      "age_days": 36,
+      "created": "2026-05-27"
+    },
+    {
+      "key": "mergeos-bounties/mergeos#8",
+      "title": "1000 MRG Bounty - Implement USDT Crypto Payment Gateway Intake with Server Webhook Callback, Sandbox Test Configuration,",
+      "url": "https://github.com/mergeos-bounties/mergeos/issues/8",
+      "usdc": 0,
+      "labels": "bounty,evidence: missing,bounty: feature,payment,reward:1000-mrg,crypto,usdt,webhook,sandbox",
+      "age_days": 37,
+      "created": "2026-05-26"
+    },
+    {
+      "key": "FuZoe/PD-Hunter#18",
+      "title": "扩充赏金组织列表：当前 21 个组织中仅 2 个有活跃赏金",
+      "url": "https://github.com/FuZoe/PD-Hunter/issues/18",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 38,
+      "created": "2026-05-25"
+    },
+    {
+      "key": "hunki1488-a11y/AIgor#1",
+      "title": "AIBTC bounty: Cross-post 3 active Bitcoin-agent bounties — 400 sats",
+      "url": "https://github.com/hunki1488-a11y/AIgor/issues/1",
+      "usdc": 0,
+      "labels": "aibtc,bounty,bitcoin",
+      "age_days": 40,
+      "created": "2026-05-23"
+    },
+    {
+      "key": "aLexzzz430/Cognitive-OS#5",
+      "title": "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
+      "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+      "usdc": 0,
+      "labels": "reward,bounty,research",
+      "age_days": 41,
+      "created": "2026-05-22"
+    },
+    {
+      "key": "gitcoinco/gitcoin_co_30#395",
+      "title": "[App] Algora",
+      "url": "https://github.com/gitcoinco/gitcoin_co_30/issues/395",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 41,
+      "created": "2026-05-22"
+    },
+    {
+      "key": "tempoxyz/mpp#657",
+      "title": "Bug: Keychain precompile KeyAlreadyExists rejects re-submission of keyAuthorization, breaking MPP services for passkey w",
+      "url": "https://github.com/tempoxyz/mpp/issues/657",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 43,
+      "created": "2026-05-20"
+    },
+    {
+      "key": "proxima424/westworld#625",
+      "title": "[post] Look, I teach teenagers whose families live paycheck to paycheck,...",
+      "url": "https://github.com/proxima424/westworld/issues/625",
+      "usdc": 0,
+      "labels": "type:post,r/crypto",
+      "age_days": 44,
+      "created": "2026-05-19"
+    },
+    {
+      "key": "rosenpass/rosenpass#748",
+      "title": "open issues with algora bounty",
+      "url": "https://github.com/rosenpass/rosenpass/issues/748",
+      "usdc": 0,
+      "labels": "admin",
+      "age_days": 45,
+      "created": "2026-05-18"
+    },
+    {
+      "key": "spaceandtimefdn/sxt-proof-of-sql#1724",
+      "title": "Brand-impersonation spam: @BossChaos posting fake Algora-style bounty comments across 94+ PRs (wallet 0xdaE5...)",
+      "url": "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/1724",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 46,
+      "created": "2026-05-17"
+    },
+    {
+      "key": "Scottcjn/rustchain-bounties#10575",
+      "title": "Claim: Blog Post — TrashClaw Local AI Agents (Bounty #2179)",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/10575",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 46,
+      "created": "2026-05-17"
+    },
+    {
+      "key": "Scottcjn/rustchain-bounties#10523",
+      "title": "Claim: Blog Post — TrashClaw Local-First Agent (Bounty #2179)",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/10523",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 46,
+      "created": "2026-05-17"
+    },
+    {
+      "key": "chatmcp/mcpso#2314",
+      "title": "[Submit] TaskBounty MCP Server: AI agents fix GitHub bugs and raise test coverage, verified in a sandbox",
+      "url": "https://github.com/chatmcp/mcpso/issues/2314",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 48,
+      "created": "2026-05-15"
+    },
+    {
+      "key": "algora-io/algora#262",
+      "title": "Bounty claim pending sponsor reward after merged PR",
+      "url": "https://github.com/algora-io/algora/issues/262",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 49,
+      "created": "2026-05-14"
+    },
+    {
+      "key": "midnightntwrk/contributor-hub#463",
+      "title": "[Bounty]:",
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/463",
+      "usdc": 0,
+      "labels": "bounty,low-priority",
+      "age_days": 49,
+      "created": "2026-05-14"
+    },
+    {
+      "key": "verdikta/verdikta-docs#3",
+      "title": "Verdikta",
+      "url": "https://github.com/verdikta/verdikta-docs/issues/3",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 49,
+      "created": "2026-05-14"
+    },
+    {
+      "key": "crewAIInc/crewAI#5790",
+      "title": "Community tool: AIGEN — open bounty protocol for AI agents (CrewAI integration)",
+      "url": "https://github.com/crewAIInc/crewAI/issues/5790",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 50,
+      "created": "2026-05-13"
+    },
+    {
+      "key": "yousuf-hossain-shanto/webpage-to-gif#442",
+      "title": "USDC",
+      "url": "https://github.com/yousuf-hossain-shanto/webpage-to-gif/issues/442",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 54,
+      "created": "2026-05-09"
+    },
+    {
+      "key": "TheBarmaEffect/origin-agent-bounty-hunter#1",
+      "title": "Conversion audit idea for origin-agent-bounty-hunter",
+      "url": "https://github.com/TheBarmaEffect/origin-agent-bounty-hunter/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 56,
+      "created": "2026-05-07"
+    },
+    {
+      "key": "owocki-bot/ai-bounty-board#13",
+      "title": "Bug report: \"Post Bounty\" form submits with empty wallet address -- no validation",
+      "url": "https://github.com/owocki-bot/ai-bounty-board/issues/13",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 58,
+      "created": "2026-05-05"
+    },
+    {
+      "key": "liubchigo/copilot-adventures-liubchigo#4",
+      "title": "Add Package Configuration Files for JavaScript and Python Solutions",
+      "url": "https://github.com/liubchigo/copilot-adventures-liubchigo/issues/4",
+      "usdc": 0,
+      "labels": "documentation,enhancement,good first issue",
+      "age_days": 64,
+      "created": "2026-04-29"
+    },
+    {
+      "key": "JasonShen-tomo/wallet-platform-service#29",
+      "title": "[BP-REPORT-E2E C02] something looks wrong",
+      "url": "https://github.com/JasonShen-tomo/wallet-platform-service/issues/29",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 73,
+      "created": "2026-04-20"
+    },
+    {
+      "key": "JasonShen-tomo/wallet-platform-service#47",
+      "title": "[BP-VIDEO C03] title only weak assertion mismatch",
+      "url": "https://github.com/JasonShen-tomo/wallet-platform-service/issues/47",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 73,
+      "created": "2026-04-20"
+    },
+    {
+      "key": "chatmcp/mcpso#2103",
+      "title": "[Submit] cipher-x402-mcp - 8 Solana/crypto/macro tools, 7 x402-paid in USDC on Base",
+      "url": "https://github.com/chatmcp/mcpso/issues/2103",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 75,
+      "created": "2026-04-18"
+    },
+    {
+      "key": "Scottcjn/rustchain-bounties#3074",
+      "title": "[AGENT-BOUNTY: 17 RTC] Integrate RustChain as a native LangChain tool",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/3074",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 76,
+      "created": "2026-04-17"
+    },
+    {
+      "key": "Scottcjn/rustchain-bounties#3075",
+      "title": "[AGENT-BOUNTY: 20 RTC] Submit rustchain-mcp to 3 MCP directories + registries",
+      "url": "https://github.com/Scottcjn/rustchain-bounties/issues/3075",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 76,
+      "created": "2026-04-17"
+    },
+    {
+      "key": "plurigrid/nanoclj-zig#17",
+      "title": "Coinbase Payments MCP + RentAHuman: agent-to-wallet stablecoin flow",
+      "url": "https://github.com/plurigrid/nanoclj-zig/issues/17",
+      "usdc": 0,
+      "labels": "cognitive-superposition",
+      "age_days": 89,
+      "created": "2026-04-04"
+    },
+    {
+      "key": "plurigrid/nanoclj-zig#18",
+      "title": "333 SMA: meatspace oracle bounty via RentAHuman + x402 settlement",
+      "url": "https://github.com/plurigrid/nanoclj-zig/issues/18",
+      "usdc": 0,
+      "labels": "cognitive-superposition",
+      "age_days": 89,
+      "created": "2026-04-04"
+    },
+    {
+      "key": "Warrenchang0816/onchain-task-tracker_go-service#5",
+      "title": "[T1] 任務 CRUD API（POST/GET /api/tasks）",
+      "url": "https://github.com/Warrenchang0816/onchain-task-tracker_go-service/issues/5",
+      "usdc": 0,
+      "labels": "theme-1,backend",
+      "age_days": 97,
+      "created": "2026-03-27"
+    },
+    {
+      "key": "Warrenchang0816/onchain-task-tracker_go-service#2",
+      "title": "[Core] 資料庫 Schema 設計（4個主題）",
+      "url": "https://github.com/Warrenchang0816/onchain-task-tracker_go-service/issues/2",
+      "usdc": 0,
+      "labels": "core,backend",
+      "age_days": 97,
+      "created": "2026-03-27"
+    },
+    {
+      "key": "illbnm/homelab-stack#4",
+      "title": "[BOUNTY $140] Network Stack — AdGuard Home + WireGuard + Nginx Proxy Manager",
+      "url": "https://github.com/illbnm/homelab-stack/issues/4",
+      "usdc": 0,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#5",
+      "title": "[BOUNTY $170] Productivity Stack — Gitea + Vaultwarden + Outline + BookStack",
+      "url": "https://github.com/illbnm/homelab-stack/issues/5",
+      "usdc": 0,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#7",
+      "title": "[BOUNTY $130] Home Automation — Home Assistant + Node-RED + Zigbee2MQTT",
+      "url": "https://github.com/illbnm/homelab-stack/issues/7",
+      "usdc": 0,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#13",
+      "title": "[BOUNTY $80] Notifications — 统一通知中心 (Gotify + Apprise)",
+      "url": "https://github.com/illbnm/homelab-stack/issues/13",
+      "usdc": 0,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#2",
+      "title": "[BOUNTY $160] Media Stack — Jellyfin + Sonarr + Radarr + qBittorrent",
+      "url": "https://github.com/illbnm/homelab-stack/issues/2",
+      "usdc": 0,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "illbnm/homelab-stack#11",
+      "title": "[BOUNTY $130] Database Layer — PostgreSQL + Redis + MariaDB 共享实例",
+      "url": "https://github.com/illbnm/homelab-stack/issues/11",
+      "usdc": 0,
+      "labels": "bounty,medium",
+      "age_days": 107,
+      "created": "2026-03-17"
+    },
+    {
+      "key": "PipedreamHQ/awesome-mcp-servers#20",
+      "title": "Add AgentPact MCP Server — AI Agent Marketplace",
+      "url": "https://github.com/PipedreamHQ/awesome-mcp-servers/issues/20",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 121,
+      "created": "2026-03-03"
+    },
+    {
+      "key": "MCP-Club/mcphub#10",
+      "title": "Add AgentPact - AI Agent Marketplace MCP Server",
+      "url": "https://github.com/MCP-Club/mcphub/issues/10",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 121,
+      "created": "2026-03-03"
+    },
+    {
+      "key": "YuzeHao2023/Awesome-MCP-Servers#37",
+      "title": "Add AgentPact MCP Server — AI Agent Marketplace",
+      "url": "https://github.com/YuzeHao2023/Awesome-MCP-Servers/issues/37",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 121,
+      "created": "2026-03-03"
+    },
+    {
+      "key": "MobinX/awesome-mcp-list#70",
+      "title": "Add AgentPact MCP Server — AI Agent Marketplace",
+      "url": "https://github.com/MobinX/awesome-mcp-list/issues/70",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 121,
+      "created": "2026-03-03"
+    },
+    {
+      "key": "demcp/awesome-web3-mcp-servers#27",
+      "title": "Add AgentPact MCP Server — AI Agent Marketplace with USDC Payments",
+      "url": "https://github.com/demcp/awesome-web3-mcp-servers/issues/27",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 121,
+      "created": "2026-03-03"
+    },
+    {
+      "key": "gbabaisaac/mergefund-hackathon-kit#1",
+      "title": "Bounty: Bounty Card Component",
+      "url": "https://github.com/gbabaisaac/mergefund-hackathon-kit/issues/1",
+      "usdc": 0,
+      "labels": "bounty,ui",
+      "age_days": 131,
+      "created": "2026-02-21"
+    },
+    {
+      "key": "chatmcp/mcpso#461",
+      "title": "Add AgentPact - Autonomous Agent Marketplace MCP Server",
+      "url": "https://github.com/chatmcp/mcpso/issues/461",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 139,
+      "created": "2026-02-13"
+    },
+    {
+      "key": "Synthetica8/synthetica-voting#13",
+      "title": "🏆 HISTORIC VICTORY: Project Agora Complete Market Domination Achieved",
+      "url": "https://github.com/Synthetica8/synthetica-voting/issues/13",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 149,
+      "created": "2026-02-03"
+    },
+    {
+      "key": "Synthetica8/synthetica-voting#8",
+      "title": "VOTE: Submit to Project Agora Job #1 - AI Accountability ( USDC)",
+      "url": "https://github.com/Synthetica8/synthetica-voting/issues/8",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 150,
+      "created": "2026-02-02"
+    },
+    {
+      "key": "Synthetica8/synthetica-treasury#3",
+      "title": "📊 PROJECT AGORA SUBMISSION STATUS - 17.8 Hours Remaining",
+      "url": "https://github.com/Synthetica8/synthetica-treasury/issues/3",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 150,
+      "created": "2026-02-02"
+    },
+    {
+      "key": "Synthetica8/synthetica-treasury#2",
+      "title": "💰 PROJECT AGORA SUBMISSION DEVELOPMENT - AI Accountability Framework",
+      "url": "https://github.com/Synthetica8/synthetica-treasury/issues/2",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 150,
+      "created": "2026-02-02"
+    },
+    {
+      "key": "Synthetica8/synthetica-treasury#1",
+      "title": "💰 ECONOMIC OPPORTUNITY ALERT - Project Agora Jobs Analysis",
+      "url": "https://github.com/Synthetica8/synthetica-treasury/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 150,
+      "created": "2026-02-02"
+    },
+    {
+      "key": "appmeee/ClawFreelance#83",
+      "title": "Add Algora bounty integration",
+      "url": "https://github.com/appmeee/ClawFreelance/issues/83",
+      "usdc": 0,
+      "labels": "feat,integration,bounty feature,oss-integration",
+      "age_days": 150,
+      "created": "2026-02-02"
+    },
+    {
+      "key": "WPManageNinja/fluent-smtp#364",
+      "title": "Your Algora Publishing account has been created!",
+      "url": "https://github.com/WPManageNinja/fluent-smtp/issues/364",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 165,
+      "created": "2026-01-18"
+    },
+    {
+      "key": "AuthorPrime/ds-defi-core#6",
+      "title": "Implement Task-to-Agent Bounty Matcher",
+      "url": "https://github.com/AuthorPrime/ds-defi-core/issues/6",
+      "usdc": 0,
+      "labels": "enhancement,help wanted",
+      "age_days": 166,
+      "created": "2026-01-17"
+    },
+    {
+      "key": "octra-labs/pvac_hfhe_cpp#444",
+      "title": "[Bug Bounty 3] Critical cryptographic design flaw: public key and ciphertext leak internal structure, scheme is not IND-",
+      "url": "https://github.com/octra-labs/pvac_hfhe_cpp/issues/444",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 169,
+      "created": "2026-01-14"
+    },
+    {
+      "key": "kevinrue/kevinrue.github.io#21",
+      "title": "add algora link",
+      "url": "https://github.com/kevinrue/kevinrue.github.io/issues/21",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 177,
+      "created": "2026-01-06"
+    },
+    {
+      "key": "Dapp-Learning-DAO/DLIP#137",
+      "title": "DLIP-135 2025 Annual Contributors Reward Proposal [3500 USDC]",
+      "url": "https://github.com/Dapp-Learning-DAO/DLIP/issues/137",
+      "usdc": 0,
+      "labels": "reward",
+      "age_days": 180,
+      "created": "2026-01-03"
+    },
+    {
+      "key": "MetaMask/metamask-mobile#22516",
+      "title": "💡 Suggestion: Crypto Bounty System for MetaMask Mobile",
+      "url": "https://github.com/MetaMask/metamask-mobile/issues/22516",
+      "usdc": 0,
+      "labels": "external-contributor,INVALID-ISSUE-TEMPLATE",
+      "age_days": 232,
+      "created": "2025-11-12"
+    },
+    {
+      "key": "calcom/cal.diy#25087",
+      "title": "💡 Suggestion: Crypto Bounty System for Cal.com Contributors",
+      "url": "https://github.com/calcom/cal.diy/issues/25087",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 232,
+      "created": "2025-11-12"
+    },
+    {
+      "key": "hiero-ledger/hiero-consensus-node#22112",
+      "title": "💡 Platform Suggestion: Crypto Bounty System for Your 1,357 Open Issues",
+      "url": "https://github.com/hiero-ledger/hiero-consensus-node/issues/22112",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 232,
+      "created": "2025-11-12"
+    },
+    {
+      "key": "MixinNetwork/android-app#5943",
+      "title": "💡 Suggestion: Bounty Platform for Mixin Android Development",
+      "url": "https://github.com/MixinNetwork/android-app/issues/5943",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 232,
+      "created": "2025-11-12"
+    },
+    {
+      "key": "polkadot-js/ui#852",
+      "title": "💡 Platform Suggestion: Bounty System for Polkadot.js UI",
+      "url": "https://github.com/polkadot-js/ui/issues/852",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 232,
+      "created": "2025-11-12"
+    },
+    {
+      "key": "ethereum-optimism/optimism#18253",
+      "title": "💡 Platform Suggestion: Bounty System for Optimism Contributors",
+      "url": "https://github.com/ethereum-optimism/optimism/issues/18253",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 232,
+      "created": "2025-11-12"
+    },
+    {
+      "key": "rotki/rotki#10481",
+      "title": "Support for Realtoken ecosystem",
+      "url": "https://github.com/rotki/rotki/issues/10481",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 318,
+      "created": "2025-08-18"
+    },
+    {
+      "key": "algora-io/algora#166",
+      "title": "Feature idea - provide an alias for a shorter profile link",
+      "url": "https://github.com/algora-io/algora/issues/166",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 330,
+      "created": "2025-08-06"
+    },
+    {
+      "key": "algora-io/algora#168",
+      "title": "Bug: Incorrect Profile data",
+      "url": "https://github.com/algora-io/algora/issues/168",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 330,
+      "created": "2025-08-06"
+    },
+    {
+      "key": "yearn/budget#298",
+      "title": "WebOps Product x Tech Lead Budget Request",
+      "url": "https://github.com/yearn/budget/issues/298",
+      "usdc": 0,
+      "labels": "budget request,approved",
+      "age_days": 342,
+      "created": "2025-07-25"
+    },
+    {
+      "key": "sherlock-audit/2025-07-cap-judging#624",
+      "title": "Big Sepia Puma - Deposit after slash timestamp can still be slashed",
+      "url": "https://github.com/sherlock-audit/2025-07-cap-judging/issues/624",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 343,
+      "created": "2025-07-24"
+    },
+    {
+      "key": "sherlock-audit/2025-06-notional-exponent-judging#198",
+      "title": "Zany Banana Elk - `AbstractRewardManager::_claimVaultRewards` not account the scenario if the reward state have multiple",
+      "url": "https://github.com/sherlock-audit/2025-06-notional-exponent-judging/issues/198",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 349,
+      "created": "2025-07-18"
+    },
+    {
+      "key": "IvanTop082/Proopmpter#1",
+      "title": "🎉 Congrats on your hackathon prize! Your payment is waiting",
+      "url": "https://github.com/IvanTop082/Proopmpter/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 371,
+      "created": "2025-06-26"
+    },
+    {
+      "key": "ValenciaLim/opik-galacticode#1",
+      "title": "🎉 Congrats on your hackathon prize! Your payment is waiting",
+      "url": "https://github.com/ValenciaLim/opik-galacticode/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 371,
+      "created": "2025-06-26"
+    },
+    {
+      "key": "simple-icons/simple-icons#13178",
+      "title": "Request: Algora",
+      "url": "https://github.com/simple-icons/simple-icons/issues/13178",
+      "usdc": 0,
+      "labels": "new icon",
+      "age_days": 413,
+      "created": "2025-05-15"
+    },
+    {
+      "key": "yearn/budget#290",
+      "title": "WebOps Frontend Budget Request 1",
+      "url": "https://github.com/yearn/budget/issues/290",
+      "usdc": 0,
+      "labels": "budget request,approved",
+      "age_days": 415,
+      "created": "2025-05-13"
+    },
+    {
+      "key": "sdil/open-production-web-projects#347",
+      "title": "add algora",
+      "url": "https://github.com/sdil/open-production-web-projects/issues/347",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 430,
+      "created": "2025-04-28"
+    },
+    {
+      "key": "sherlock-audit/2025-03-symm-io-stacking-judging#201",
+      "title": "Hot Tiger Locust - Attacker will drain rewards from Legitimate stakers.",
+      "url": "https://github.com/sherlock-audit/2025-03-symm-io-stacking-judging/issues/201",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 479,
+      "created": "2025-03-10"
+    },
+    {
+      "key": "yearn/budget#260",
+      "title": "Kalani Season 5",
+      "url": "https://github.com/yearn/budget/issues/260",
+      "usdc": 0,
+      "labels": "budget request,approved",
+      "age_days": 513,
+      "created": "2025-02-04"
+    },
+    {
+      "key": "yearn/budget#259",
+      "title": "Kong Season 6",
+      "url": "https://github.com/yearn/budget/issues/259",
+      "usdc": 0,
+      "labels": "budget request,approved",
+      "age_days": 513,
+      "created": "2025-02-04"
+    },
+    {
+      "key": "yearn/budget#245",
+      "title": "CRV-DOLA Trade Slippage Reimbursement ",
+      "url": "https://github.com/yearn/budget/issues/245",
+      "usdc": 0,
+      "labels": "budget request,approved",
+      "age_days": 559,
+      "created": "2024-12-20"
+    },
+    {
+      "key": "chatmcp/mcpso#1",
+      "title": "Submit Your MCP Servers here",
+      "url": "https://github.com/chatmcp/mcpso/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 573,
+      "created": "2024-12-06"
+    },
+    {
+      "key": "sdil/open-production-web-projects#336",
+      "title": "Add algora tv",
+      "url": "https://github.com/sdil/open-production-web-projects/issues/336",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 669,
+      "created": "2024-09-01"
+    },
+    {
+      "key": "hsoiuie/tryglory#5",
+      "title": "test algora",
+      "url": "https://github.com/hsoiuie/tryglory/issues/5",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 688,
+      "created": "2024-08-13"
+    },
+    {
+      "key": "capofficial/client#11",
+      "title": "Size to close is not well formatted, sometimes",
+      "url": "https://github.com/capofficial/client/issues/11",
+      "usdc": 0,
+      "labels": "bug,good first issue,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#29",
+      "title": "Pool transactions should be clearer and have infinite scroll",
+      "url": "https://github.com/capofficial/client/issues/29",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#13",
+      "title": "Welcome modal with integrated bridge and/or instructions",
+      "url": "https://github.com/capofficial/client/issues/13",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#21",
+      "title": "Allow easy trade sharing",
+      "url": "https://github.com/capofficial/client/issues/21",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#6",
+      "title": "Pool metrics are wrong / weird",
+      "url": "https://github.com/capofficial/client/issues/6",
+      "usdc": 0,
+      "labels": "bug,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#4",
+      "title": "Show new liquidation price when adding or removing margin",
+      "url": "https://github.com/capofficial/client/issues/4",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#19",
+      "title": "Show available margin in Add/Remove margin modal",
+      "url": "https://github.com/capofficial/client/issues/19",
+      "usdc": 0,
+      "labels": "enhancement,good first issue,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#23",
+      "title": "Display more information when depositing/withdrawing from pools",
+      "url": "https://github.com/capofficial/client/issues/23",
+      "usdc": 0,
+      "labels": "enhancement,good first issue,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#32",
+      "title": "Wrong error message while approving CAP on Stake function",
+      "url": "https://github.com/capofficial/client/issues/32",
+      "usdc": 0,
+      "labels": "bug,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#7",
+      "title": "Display liquidation price on chart",
+      "url": "https://github.com/capofficial/client/issues/7",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#24",
+      "title": "Show referral fee discount",
+      "url": "https://github.com/capofficial/client/issues/24",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#14",
+      "title": "Export trading history",
+      "url": "https://github.com/capofficial/client/issues/14",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#8",
+      "title": "Panel scrollbars do not appear on Firefox",
+      "url": "https://github.com/capofficial/client/issues/8",
+      "usdc": 0,
+      "labels": "bug,good first issue,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#17",
+      "title": "Enhanced Take-profit and Stop-loss inputs",
+      "url": "https://github.com/capofficial/client/issues/17",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "capofficial/client#16",
+      "title": "Add indicators like MA, RSI, MACD, etc.",
+      "url": "https://github.com/capofficial/client/issues/16",
+      "usdc": 0,
+      "labels": "enhancement,bounty",
+      "age_days": 1303,
+      "created": "2022-12-07"
+    },
+    {
+      "key": "WhiteMatrixTech/Gitcoin#1",
+      "title": "Bounty for best innovation ideas with ChainIDE",
+      "url": "https://github.com/WhiteMatrixTech/Gitcoin/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1504,
+      "created": "2022-05-20"
+    },
+    {
+      "key": "near/bounties#78",
+      "title": "Build Decentralized Social Network with NEAR",
+      "url": "https://github.com/near/bounties/issues/78",
+      "usdc": 0,
+      "labels": "frontent+contract",
+      "age_days": 1505,
+      "created": "2022-05-19"
+    },
+    {
+      "key": "code-423n4/2022-01-sherlock-findings#69",
+      "title": "Use structs instead of three mappings in Sherlock.sol",
+      "url": "https://github.com/code-423n4/2022-01-sherlock-findings/issues/69",
+      "usdc": 0,
+      "labels": "bug,0 (Non-critical)",
+      "age_days": 1621,
+      "created": "2022-01-23"
+    },
+    {
+      "key": "aragon/dao-global-hackaton#20",
+      "title": "Mintgate <> Aragon: Bring content gating to Aragon DAOs",
+      "url": "https://github.com/aragon/dao-global-hackaton/issues/20",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1714,
+      "created": "2021-10-22"
+    },
+    {
+      "key": "aragon/dao-global-hackaton#19",
+      "title": "UMA <> Aragon: Enable Aragon DAOs to launch KPI options",
+      "url": "https://github.com/aragon/dao-global-hackaton/issues/19",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1714,
+      "created": "2021-10-22"
+    },
+    {
+      "key": "aragon/dao-global-hackaton#17",
+      "title": "Snapshot <> Aragon: Snapshot & Aragon Govern integration",
+      "url": "https://github.com/aragon/dao-global-hackaton/issues/17",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1714,
+      "created": "2021-10-22"
+    },
+    {
+      "key": "aragon/dao-global-hackaton#14",
+      "title": "Harmony <> Aragon: Integrate Data feeds between Harmony and Aragon to allow reverse Identity Look up",
+      "url": "https://github.com/aragon/dao-global-hackaton/issues/14",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1714,
+      "created": "2021-10-22"
+    },
+    {
+      "key": "aragon/dao-global-hackaton#21",
+      "title": "Deep DAO <> Aragon: Fix Status of Voting",
+      "url": "https://github.com/aragon/dao-global-hackaton/issues/21",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1714,
+      "created": "2021-10-22"
+    },
+    {
+      "key": "superfluid-finance/dao-global-bounties#1",
+      "title": "Build a Superfluid Streaming Payments Integration Into Aragon Client",
+      "url": "https://github.com/superfluid-finance/dao-global-bounties/issues/1",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1718,
+      "created": "2021-10-18"
+    },
+    {
+      "key": "umbrella-network/hackathon#4",
+      "title": "UMB Gas estimation",
+      "url": "https://github.com/umbrella-network/hackathon/issues/4",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1721,
+      "created": "2021-10-15"
+    },
+    {
+      "key": "umbrella-network/hackathon#3",
+      "title": "Deliver L2D on chain",
+      "url": "https://github.com/umbrella-network/hackathon/issues/3",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1721,
+      "created": "2021-10-15"
+    },
+    {
+      "key": "bountysource/core#1547",
+      "title": "MetaMask integration is broken",
+      "url": "https://github.com/bountysource/core/issues/1547",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1777,
+      "created": "2021-08-20"
+    },
+    {
+      "key": "bountysource/core#1538",
+      "title": "Unable to collect crypto bounty",
+      "url": "https://github.com/bountysource/core/issues/1538",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 1840,
+      "created": "2021-06-18"
+    },
+    {
+      "key": "brock/node-reinstall#49",
+      "title": "Unit tests using BATS",
+      "url": "https://github.com/brock/node-reinstall/issues/49",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 2737,
+      "created": "2019-01-03"
+    },
+    {
+      "key": "huginn/huginn#2441",
+      "title": "Agent Request: Join Agent [Bounty]",
+      "url": "https://github.com/huginn/huginn/issues/2441",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 2753,
+      "created": "2018-12-18"
+    },
+    {
+      "key": "bountysource/core#1350",
+      "title": "Allow crypto and fiat bounties for the same issue",
+      "url": "https://github.com/bountysource/core/issues/1350",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 2899,
+      "created": "2018-07-25"
+    },
+    {
+      "key": "bountysource/core#1349",
+      "title": "Github Committer Tools should work with crypto bounties",
+      "url": "https://github.com/bountysource/core/issues/1349",
+      "usdc": 0,
+      "labels": "in progress",
+      "age_days": 2905,
+      "created": "2018-07-19"
+    },
+    {
+      "key": "EtherbitHQ/donut#19",
+      "title": "Crypto bounty for this app",
+      "url": "https://github.com/EtherbitHQ/donut/issues/19",
+      "usdc": 0,
+      "labels": "",
+      "age_days": 3171,
+      "created": "2017-10-26"
+    }
+  ]
+}

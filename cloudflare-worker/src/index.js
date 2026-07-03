@@ -24,22 +24,68 @@ function b64decode(str) {
 }
 
 function paymentRequired(resourceUrl, endpoint) {
+  const accept = {
+    scheme: "exact",
+    network: "eip-155:8453",
+    resource: resourceUrl,
+    description: descriptionFor(endpoint),
+    mimeType: endpoint === "/v1/digest" ? "text/plain" : "application/json",
+    payTo: OPERATOR_ADDRESS_BASE,
+    maxAmountRequired: priceFor(endpoint),
+    maxTimeoutSeconds: 60,
+    asset: USDC_ASSET_BASE,
+    extra: { name: "USD Coin", version: "2" },
+    outputSchema: outputSchemaFor(endpoint),
+  };
   return {
     x402Version: 2,
     error: "X-PAYMENT header is required",
-    accepts: [{
-      scheme: "exact",
-      network: "eip-155:8453",
-      resource: resourceUrl,
-      description: descriptionFor(endpoint),
-      mimeType: endpoint === "/v1/digest" ? "text/plain" : "application/json",
-      payTo: OPERATOR_ADDRESS_BASE,
-      maxAmountRequired: priceFor(endpoint),
-      maxTimeoutSeconds: 60,
-      asset: USDC_ASSET_BASE,
-      extra: { name: "USD Coin", version: "2" }
-    }]
+    accepts: [accept],
+    extensions: {
+      bazaar: {
+        type: "discoverable",
+        discoverable: true,
+        services: bazaarServices(),
+      },
+    },
   };
+}
+
+function bazaarServices() {
+  return [
+    {
+      type: "http",
+      resource: "https://aia-x402.rmalka06.workers.dev/v1/signals",
+      description: "Filtered curated AI signal stream (JSON)",
+      tags: ["ai","agents","signals","curation","news","crypto","x402","research","autonomous"],
+      inputSchema: { type:"object", properties:{ topics:{type:"string"}, limit:{type:"integer"}, min_score:{type:"number"}, source:{type:"string"} }, required:[] },
+      outputSchema: { type:"object", properties:{ endpoint:{type:"string"}, count:{type:"integer"}, signals:{type:"array", items:{type:"object"}} } },
+    },
+    {
+      type: "http",
+      resource: "https://aia-x402.rmalka06.workers.dev/v1/digest",
+      description: "One-paragraph daily digest (plain text)",
+      tags: ["digest","summary","ai","agents","research"],
+      inputSchema: { type:"object", properties:{ topics:{type:"string"} }, required:[] },
+      outputSchema: { type:"string", description:"Plain-text digest" },
+    },
+    {
+      type: "http",
+      resource: "https://aia-x402.rmalka06.workers.dev/v1/alerts",
+      description: "Webhook subscription preview (JSON)",
+      tags: ["alerts","webhook","monitoring","ai","agents"],
+      inputSchema: { type:"object", properties:{ topics:{type:"string"} }, required:[] },
+      outputSchema: { type:"object", properties:{ endpoint:{type:"string"}, filter:{type:"object"}, count:{type:"integer"}, preview:{type:"array"} } },
+    },
+  ];
+}
+
+function outputSchemaFor(endpoint) {
+  const s = bazaarServices();
+  if (endpoint === "/v1/signals") return s[0].outputSchema;
+  if (endpoint === "/v1/digest")  return s[1].outputSchema;
+  if (endpoint === "/v1/alerts")  return s[2].outputSchema;
+  return {};
 }
 
 async function verifyWithFacilitator(paymentPayload, paymentRequirements) {
@@ -219,6 +265,36 @@ export default {
           "access-control-allow-origin": "*",
         }
       });
+    }
+
+    
+    if (url.pathname === "/.well-known/mcp.json" || url.pathname === "/.well-known/mcp") {
+      return Response.json({
+        mcpVersion: "2024-11-05",
+        name: "aia",
+        title: "AIA Real-Time Signal Stream",
+        version: "1.0.0",
+        description: "Filtered curated AI/agent/crypto/finance signals from HN, GitHub trending, V2EX, dev.to, Lobsters. 40+ signals per run, scored and deduplicated. Affordable x402 micro-payments on Base ($0.01 signals, $0.003 digest, $0.005 alerts).",
+        author: { name: "razel369-aia", url: "https://razel369.github.io/aia/" },
+        operator: "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e",
+        network: "base",
+        homepage: "https://aia-x402.rmalka06.workers.dev",
+        tools: [
+          { name: "aia_curate", description: "Get curated AI-agent signals", inputSchema: { type: "object", properties: { topics: { type: "string" }, limit: { type: "integer" } } } },
+          { name: "aia_digest", description: "Get daily digest in plain text", inputSchema: { type: "object", properties: { topics: { type: "string" } } } }
+        ],
+        pricing: {
+          "/v1/signals": "0.01 USDC",
+          "/v1/digest": "0.003 USDC",
+          "/v1/alerts": "0.005 USDC"
+        },
+        payment: {
+          protocol: "x402",
+          network: "eip-155:8453",
+          asset: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          payTo: "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e"
+        }
+      }, { headers: { "content-type": "application/json", "access-control-allow-origin": "*" }});
     }
 
     return Response.json({

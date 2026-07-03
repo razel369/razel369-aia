@@ -21,6 +21,7 @@ from . import dashboard as dash_mod
 from . import moltjobs as molt_mod
 from . import poller as poller_mod
 from . import fulfill
+from . import bounties
 
 
 def heartbeat(stage, **kw):
@@ -109,7 +110,7 @@ def smoke_test_x402(base_url=None):
         return out
 
 
-def run_once(do_dashboard=True, do_moltjobs=True, do_kv_push=True, do_poller=True, do_smoke=True):
+def run_once(do_dashboard=True, do_moltjobs=True, do_kv_push=True, do_poller=True, do_smoke=True, do_bounties=True):
     t0 = time.time()
     feed = refresh_mod.main()
     heartbeat("refresh", raw=feed.get("raw_collected"),
@@ -135,6 +136,12 @@ def run_once(do_dashboard=True, do_moltjobs=True, do_kv_push=True, do_poller=Tru
             heartbeat("poller", **result)
         except Exception as e:
             heartbeat("poller_error", error=str(e)[:200])
+    if do_bounties:
+        try:
+            sweep = bounties.sweep()
+            heartbeat("bounties", **sweep)
+        except Exception as e:
+            heartbeat("bounties_error", error=str(e)[:200])
     if do_smoke:
         try:
             smoke = smoke_test_x402()

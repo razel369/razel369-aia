@@ -1,0 +1,6 @@
+2026-07-03T09:56:51Z start: last_open=[] last_moved=$0
+2026-07-03T09:56:52Z open change: [] -> [49]
+2026-07-03T09:56:52Z moved change: $0 -> $645
+2026-07-03T10:06:04Z !!! NEW PAID: [[11, 6, "Delayed verifier proof"]]
+2026-07-03T10:06:04Z open change: [49] -> [11, 49]
+2026-07-03T10:08:07Z open change: [11, 49] -> [49]

@@ -1,0 +1,14 @@
+name = "aia-facilitator"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# AIA x402 facilitator — earns 0.1% (10 bps) on every payment verified
+# Free for first 1000 transactions/month to bootstrap adoption.
+[vars]
+FEE_BPS = "10"
+FREE_TIER_PER_MONTH = "1000"
+FACILITATOR_NAME = "AIA Facilitator (razel369)"
+
+[[kv_namespaces]]
+binding = "FACILITATOR_KV"
+id = "092dd0675e0645b7be09c4c69699333b"
