@@ -1,107 +1,115 @@
 #!/usr/bin/env python3
-"""Look at recent Frantic paid bounty completions + find auto-pay GitHub programs + high-value actions."""
-import json, urllib.request, urllib.error, re, subprocess, time
+"""Thorough check of all addresses and find where the money went."""
+import json, urllib.request, ssl, urllib.error, hashlib
 
-def fetch(url, headers=None, method="GET", data=None, timeout=20):
-    h = {"User-Agent":"Mozilla/5.0","Accept":"*/*"}
-    if headers: h.update(headers)
-    body = None
-    if data is not None and not isinstance(data, str):
-        h["Content-Type"] = "application/json"
-        body = json.dumps(data).encode("utf-8")
-    elif data is not None:
-        body = data.encode("utf-8")
-    req = urllib.request.Request(url, method=method, data=body, headers=h)
+ctx = ssl.create_default_context()
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+    "Accept": "*/*",
+    "Content-Type": "application/json",
+}
+
+# The key the user sent me in this session
+USER_KEY = "0x758ced3b12c9462340867c7f523476f3f9c4d7af08360185b33d5eb224a06bda"
+
+# The wallet I generated earlier
+GEN_KEY = "0x3f94d512869900c94cc9f0e2d54b203d966a1697e41b04d5d51d8622f0a9e490"
+
+# The operator wallet
+OP_KEY = None  # I don't have this
+
+print("=" * 70)
+print("DERIVED ADDRESSES")
+print("=" * 70)
+from eth_account import Account
+u = Account.from_key(USER_KEY)
+g = Account.from_key(GEN_KEY)
+print(f"  User's key -> 0x{u.address}")
+print(f"  My generated key -> 0x{g.address}")
+print(f"  Operator (from earlier): 0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e")
+print()
+
+# Check all 3 addresses on both chains via Blockscout
+addresses = {
+    "USER_KEY-derived": u.address,
+    "MY-GENERATED": g.address,
+    "OPERATOR (no key)": "0x833ca7dcdb6a681ddc0c15982ef0d609bceb3a5e"
+}
+
+def blockscout(path, chain):
+    url = f"https://{chain}.blockscout.com/api/v2/{path}"
+    req = urllib.request.Request(url, headers=HEADERS)
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            text = r.read().decode("utf-8", errors="replace")
-            try: return r.status, json.loads(text)
-            except: return r.status, text
-    except urllib.error.HTTPError as e:
-        text = e.read().decode("utf-8", errors="replace")
-        try: return e.code, json.loads(text)
-        except: return e.code, text
+        with urllib.request.urlopen(req, context=ctx, timeout=20) as r:
+            return r.status, json.loads(r.read().decode())
+    except urllib.error.HTTPError as ex:
+        return ex.code, {"error": ex.read().decode()[:200]}
     except Exception as e:
-        return -1, str(e)
+        return 0, {"error": str(e)}
 
-def gh(path):
-    try:
-        r = subprocess.run(["gh","api",path], capture_output=True, text=True, timeout=30)
-        if r.returncode == 0:
-            try: return json.loads(r.stdout)
-            except: return r.stdout
-        return None
-    except: return None
+for label, addr in addresses.items():
+    print(f"=" * 70)
+    print(f"{label}: 0x{addr}")
+    print(f"=" * 70)
 
-# 1) Recent Frantic PAID completions (last 20 events with PAID kind)
-print("=" * 60)
-print("FRANTIC: recent PAID events (last 50 events)")
-print("=" * 60)
-s, d = fetch("https://api.gofrantic.com/mcp", method="POST",
-    headers={"Accept":"application/json, text/event-stream"},
-    data={"jsonrpc":"2.0","id":1,"method":"tools/call",
-          "params":{"name":"frantic.read_ledger","arguments":{}}})
-if isinstance(d, dict):
-    sc = d.get("result",{}).get("structuredContent",{})
-    led = sc.get("ledger",{})
-    events = led.get("events",[])
-    # Filter for PAID events
-    paid = [e for e in events if e.get("kind") == "PAID" or "$" in e.get("text","")]
-    print(f"  total events: {len(events)}, paid-related: {len(paid)}")
+    for chain in ["base-sepolia", "base", "ethereum", "sepolia"]:
+        # Address info
+        s, r = blockscout(f"addresses/{addr}", chain)
+        if s == 200:
+            cb = r.get("coin_balance")
+            eth = 0
+            if cb:
+                try:
+                    eth = (int(cb, 16) if cb.startswith("0x") else int(cb)) / 1e18
+                except: pass
+            tx_count = r.get("transactions_count")
+            created = r.get("creation_tx_hash") or r.get("creator_address_hash")
+            if eth > 0 or tx_count:
+                print(f"  [{chain}] ETH={eth:.8f} txs={tx_count} created={created}")
+
+        # Token balances
+        s, r = blockscout(f"addresses/{addr}/token-balances", chain)
+        if s == 200:
+            items = r if isinstance(r, list) else r.get("items", [])
+            for b in items:
+                tok = b.get("token", {})
+                sym = tok.get("symbol", "?")
+                decimals = int(tok.get("decimals", 18))
+                val = b.get("value", "0")
+                if val and val.startswith("0x"):
+                    val_int = int(val, 16)
+                else:
+                    val_int = int(val) if val else 0
+                human = val_int / (10 ** decimals)
+                if human > 0:
+                    print(f"  [{chain}] {sym}: {human}")
     print()
-    for e in paid[:20]:
-        print(f"    {e.get('at','')[:19]} {e.get('kind','?'):>10}  {e.get('text','')[:130]}")
 
-# 2) Find Frantic bounties that have been FUNDED but not yet started (look for FUNDED events)
-print()
-print("=" * 60)
-print("FRANTIC: recent FUNDED events (look for new paid)")
-print("=" * 60)
-if isinstance(d, dict):
-    funded = [e for e in events if e.get("kind") == "FUNDED"]
-    print(f"  funded events: {len(funded)}")
-    for e in funded[:20]:
-        print(f"    {e.get('at','')[:19]} {e.get('kind','?'):>10}  {e.get('text','')[:130]}")
+# Also try direct RPC with both addresses on base-sepolia
+def rpc(method, params, rpc_url):
+    payload = json.dumps({"jsonrpc": "2.0", "id": 1, "method": method, "params": params}).encode()
+    req = urllib.request.Request(rpc_url, data=payload, method="POST", headers=HEADERS)
+    try:
+        with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
+            return r.status, json.loads(r.read().decode())
+    except Exception as e:
+        return 0, {"error": str(e)}
 
-# 3) Search GitHub for auto-pay programs
-print()
-print("=" * 60)
-print("GITHUB: search for auto-pay programs")
-print("=" * 60)
-queries = [
-    "bounty auto pay merge",
-    "paid on merge github bot USDC",
-    "first PR merged USDC",
-    "contributor payout bot",
-    "github bot pays contributors",
-]
-for q in queries:
-    s, d = fetch(f"https://api.github.com/search/repositories?q={urllib.request.quote(q)}&sort=updated&per_page=5",
-                 headers={"Accept":"application/vnd.github+json"})
-    if isinstance(d, dict):
-        items = d.get("items",[])
-        if items:
-            print(f"  q={q}: {d.get('total_count')} results")
-            for r in items[:3]:
-                print(f"    {r.get('full_name')}: {r.get('description','')[:80] if r.get('description') else ''}")
+print("=" * 70)
+print("RPC CHECK (base-sepolia, publicnode.com)")
+print("=" * 70)
+for label, addr in addresses.items():
+    s, r = rpc("eth_getBalance", [addr, "latest"], "https://base-sepolia-rpc.publicnode.com")
+    if s == 200 and "result" in r:
+        bal = int(r["result"], 16) / 1e18
+        print(f"  {label}: 0x{addr}")
+        print(f"    ETH: {bal:.10f}")
 
-# 4) Look for GitHub Actions-based auto-pay
-print()
-print("=" * 60)
-print("GITHUB: search for paid-auto-bot")
-print("=" * 60)
-queries = [
-    "polar pay bot",
-    "github sponsors bot",
-    "tip jar github bot",
-    "usdc auto pay issue",
-]
-for q in queries:
-    s, d = fetch(f"https://api.github.com/search/repositories?q={urllib.request.quote(q)}&sort=updated&per_page=3",
-                 headers={"Accept":"application/vnd.github+json"})
-    if isinstance(d, dict):
-        items = d.get("items",[])
-        if items:
-            print(f"  q={q}: {d.get('total_count')} results")
-            for r in items[:2]:
-                print(f"    {r.get('full_name')}: {r.get('description','')[:80] if r.get('description') else ''}")
+    # USDC
+    USDC_TEST = "0x036CbD53842c5426634e7929541eC2318f3dCF7e"
+    addr_clean = addr[2:].lower().zfill(64)
+    s, r = rpc("eth_call", [{"to": USDC_TEST, "data": "0x70a08231" + addr_clean}, "latest"], "https://base-sepolia-rpc.publicnode.com")
+    if s == 200 and "result" in r:
+        bal = int(r["result"], 16) / 1e6 if r["result"] != "0x" else 0
+        if bal > 0:
+            print(f"    USDC: {bal}")
