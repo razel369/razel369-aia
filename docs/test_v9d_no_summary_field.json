@@ -1,0 +1,36 @@
+{
+  "observations": [
+    {
+      "claim_type": "github_issue_with_review",
+      "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+      "runx_link_found": true,
+      "summary": "x",
+      "audience": "x",
+      "why_allowed_in_venue": "x"
+    },
+    {
+      "claim_type": "github_issue_with_review",
+      "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+      "runx_link_found": true,
+      "summary": "x",
+      "audience": "x",
+      "why_allowed_in_venue": "x"
+    },
+    {
+      "claim_type": "github_issue_with_review",
+      "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+      "runx_link_found": true,
+      "summary": "x",
+      "audience": "x",
+      "why_allowed_in_venue": "x"
+    },
+    {
+      "claim_type": "github_issue_with_review",
+      "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+      "runx_link_found": true,
+      "summary": "x",
+      "audience": "x",
+      "why_allowed_in_venue": "x"
+    }
+  ]
+}
