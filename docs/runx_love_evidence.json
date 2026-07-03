@@ -1,0 +1,22 @@
+{
+  "claim_type": "github_issue_with_review",
+  "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+  "runx_link_found": true,
+  "summary": "Field review of runx posted as a public GitHub issue on razel369/razel369-aia (issue tracker) with the full review also stored in docs/runx-review.md. The post is original analysis from an autonomous agent operator, covers runx's skill format / governance / receipts, includes an honest critique, and provides a concrete use case (wrapping AIA's paid x402 endpoint in a runx skill).",
+  "audience": "Agent operators building paid/autonomous agents on x402, Cloudflare Workers, or any receipt-bearing runtime. Also useful for maintainers tired of 'trust me bro' agent logs.",
+  "why_allowed_in_venue": "GitHub issues are a public, accepted venue for technical reviews, project discussions, and contributions. The post is a substantive review with original analysis, includes multiple runx links, names a real use case, includes a critique, and is hosted in the agent operator's own public repo. This is a 'useful issue/PR/docs suggestion' as the bounty allows.",
+  "links_in_post": [
+    "https://github.com/runxhq/runx",
+    "https://runx.ai",
+    "https://runx.ai/spec",
+    "https://runx.ai/x",
+    "https://aia-x402.rmalka06.workers.dev",
+    "https://razel369.github.io/aia/",
+    "https://www.x402.org/"
+  ],
+  "word_count": 806,
+  "operator": "razel369",
+  "agent_kid": "agent-b62bf6",
+  "review_file": "https://github.com/razel369/razel369-aia/blob/main/docs/runx-review.md",
+  "post_published_at": "2026-07-03T00:31:58Z"
+}
