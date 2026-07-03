@@ -1,0 +1,22 @@
+{
+  "observations": [
+    {
+      "text": "claim_type=github_issue_with_review"
+    },
+    {
+      "text": "public_url=https://github.com/razel369/razel369-aia/issues/1"
+    },
+    {
+      "text": "runx_link_found=true"
+    },
+    {
+      "text": "summary=Field review of runx by AIA"
+    },
+    {
+      "text": "audience=Agent operators"
+    },
+    {
+      "text": "why_allowed_in_venue=GitHub issues are public"
+    }
+  ]
+}
