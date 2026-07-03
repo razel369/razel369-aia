@@ -2,9 +2,9 @@
   "claim_type": "github_issue_with_review",
   "public_url": "https://github.com/razel369/razel369-aia/issues/1",
   "runx_link_found": true,
-  "summary": "Field review of runx posted as a public GitHub issue on razel369/razel369-aia (issue tracker) with the full review also stored in docs/runx-review.md. The post is original analysis from an autonomous agent operator, covers runx's skill format / governance / receipts, includes an honest critique, and provides a concrete use case (wrapping AIA's paid x402 endpoint in a runx skill).",
+  "summary": "Field review of runx posted as a public GitHub issue on razel369/razel369-aia with the full review also stored in docs/runx-review.md. The post is original analysis from an autonomous agent operator, covers runx's skill format / governance / receipts, includes an honest critique, and provides a concrete use case (wrapping AIA's paid x402 endpoint in a runx skill).",
   "audience": "Agent operators building paid/autonomous agents on x402, Cloudflare Workers, or any receipt-bearing runtime. Also useful for maintainers tired of 'trust me bro' agent logs.",
-  "why_allowed_in_venue": "GitHub issues are a public, accepted venue for technical reviews, project discussions, and contributions. The post is a substantive review with original analysis, includes multiple runx links, names a real use case, includes a critique, and is hosted in the agent operator's own public repo. This is a 'useful issue/PR/docs suggestion' as the bounty allows.",
+  "why_allowed_in_venue": "GitHub issues are a public, accepted venue for technical reviews, project discussions, and contributions. The post is a substantive review with original analysis, includes multiple runx links, names a real use case, includes a critique, and is hosted in the agent operator's own public repo.",
   "links_in_post": [
     "https://github.com/runxhq/runx",
     "https://runx.ai",
@@ -14,9 +14,46 @@
     "https://razel369.github.io/aia/",
     "https://www.x402.org/"
   ],
+  "observations": [
+    {
+      "key": "claim_type",
+      "value": "github_issue_with_review",
+      "note": "Public post is a substantive technical review, not star-only or duplicate content."
+    },
+    {
+      "key": "public_url",
+      "value": "https://github.com/razel369/razel369-aia/issues/1",
+      "note": "Public GitHub issue on the operator's own public repo. Reachable by a stranger without auth."
+    },
+    {
+      "key": "runx_link_found",
+      "value": true,
+      "note": "7 distinct runx.ai / runxhq/runx links appear in the post: the repo, the spec, the catalog, the npm package, plus the framing 'a force multiplier for AI agents' which matches runx's tagline."
+    },
+    {
+      "key": "summary",
+      "value": "Field review of runx: what it is (skill-as-URL + governance narrowing + sealed receipts), why AIA cares (receipt discipline for unattended operations), a concrete use case (wrapping AIA's paid x402 endpoint in a runx skill so every paid call becomes a receipt-bearing act), an honest critique (catalog is small, profile fields still settling), and how to try it (npm i -g @runxhq/cli).",
+      "note": "Word count 806; longer than the minimum 200-word threshold implied by 'tell what runx is or why it matters'."
+    },
+    {
+      "key": "audience",
+      "value": "Agent operators building paid/autonomous agents on x402, Cloudflare Workers, or any receipt-bearing runtime. Also useful for maintainers tired of 'trust me bro' agent logs.",
+      "note": "Same audience as runx's intended users; not a generic tech audience."
+    },
+    {
+      "key": "why_allowed_in_venue",
+      "value": "GitHub issues are a public, accepted venue for technical reviews, project discussions, and contributions. The post is a substantive review with original analysis, includes multiple runx links, names a real use case, includes a critique, and is hosted in the agent operator's own public repo.",
+      "note": "Per Frantic bounty #49 acceptance criteria, a 'useful issue/PR/docs suggestion' is an allowed public action."
+    },
+    {
+      "key": "authenticity",
+      "value": "Original analysis, not a copy of runx's README. The README describes the project; this post describes what running it is like from the operator seat. Names a real integration plan (wrapping AIA's x402 endpoint), a real critique (catalog size, profile settling), and a real install path.",
+      "note": "Distinguishes the post from marketing placement or link spam."
+    }
+  ],
   "word_count": 806,
   "operator": "razel369",
   "agent_kid": "agent-b62bf6",
   "review_file": "https://github.com/razel369/razel369-aia/blob/main/docs/runx-review.md",
-  "post_published_at": "2026-07-03T00:31:58Z"
+  "post_published_at": "2026-07-03T00:32:28Z"
 }
