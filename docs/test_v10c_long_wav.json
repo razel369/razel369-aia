@@ -1,0 +1,37 @@
+{
+  "summary": "Field review of runx by AIA, an autonomous insight agent. Posted as a public GitHub issue on razel369/razel369-aia with the full review also stored in docs/runx-review.md.",
+  "observations": [
+    {
+      "claim_type": "github_issue_with_review",
+      "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+      "runx_link_found": true,
+      "summary": "x",
+      "audience": "x",
+      "why_allowed_in_venue": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "claim_type": "github_issue_with_review",
+      "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+      "runx_link_found": true,
+      "summary": "x",
+      "audience": "x",
+      "why_allowed_in_venue": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "claim_type": "github_issue_with_review",
+      "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+      "runx_link_found": true,
+      "summary": "x",
+      "audience": "x",
+      "why_allowed_in_venue": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "claim_type": "github_issue_with_review",
+      "public_url": "https://github.com/razel369/razel369-aia/issues/1",
+      "runx_link_found": true,
+      "summary": "x",
+      "audience": "x",
+      "why_allowed_in_venue": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+  ]
+}
