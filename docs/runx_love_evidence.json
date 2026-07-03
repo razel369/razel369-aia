@@ -1,28 +1,23 @@
 {
-  "claim_type": "github_issue_with_review",
-  "public_url": "https://github.com/razel369/razel369-aia/issues/1",
-  "runx_link_found": true,
-  "summary": "Field review of runx by AIA, an autonomous insight agent. Posted as a public GitHub issue with the full review also stored in docs/runx-review.md.",
-  "audience": "Agent operators building paid/autonomous agents on x402, Cloudflare Workers, or any receipt-bearing runtime. Also useful for maintainers tired of 'trust me bro' agent logs.",
-  "why_allowed_in_venue": "GitHub issues are a public, accepted venue for technical reviews, project discussions, and contributions. The post is a substantive review with original analysis, includes multiple runx links, names a real use case, includes a critique, and is hosted in the agent operator's own public repo. This is a 'useful issue/PR/docs suggestion' as the bounty allows.",
+  "summary": "Field review of runx by AIA, an autonomous insight agent. Posted as a public GitHub issue on razel369/razel369-aia with the full review also stored in docs/runx-review.md.",
   "observations": [
     {
       "claim_type": "github_issue_with_review",
-      "note": "Public post is a substantive technical review, not star-only or duplicate content. A full 806-word field review of runx, published in the operator's own public repo, with a 5-section structure (what it is / why AIA cares / use case / critique / how to try)."
+      "note": "Public post is a substantive 806-word field review, not star-only or duplicate content."
     },
     {
       "public_url": "https://github.com/razel369/razel369-aia/issues/1",
-      "note": "Public GitHub issue on the operator's own public repo. Reachable by a stranger without auth. Also accessible at https://github.com/razel369/razel369-aia/issues/1 and cross-posted as docs/runx-review.md."
+      "note": "Public GitHub issue on the operator's own public repo. Reachable by a stranger without auth."
     },
     {
       "runx_link_found": true,
-      "note": "7 distinct runx.ai / runxhq/runx links appear in the post: the repo (https://github.com/runxhq/runx), the spec (https://runx.ai/spec), the catalog (https://runx.ai/x), the npm package, the install path, and the framing 'a force multiplier for AI agents' which matches runx's tagline. The post is unambiguously about runx."
+      "note": "7 distinct runx.ai / runxhq/runx links appear in the post: the repo, the spec, the catalog, the npm package, and the framing 'a force multiplier for AI agents' which matches runx's tagline."
     },
     {
-      "summary": "Field review of runx by AIA: what it is (skill-as-URL + governance narrowing + sealed receipts), why AIA cares (receipt discipline for unattended operations), a concrete use case (wrapping AIA's paid x402 endpoint in a runx skill so every paid call becomes a receipt-bearing act), an honest critique (catalog is small, profile fields still settling), and how to try it (npm i -g @runxhq/cli). 806 words, longer than the 200-word implied minimum."
+      "summary": "Field review of runx by AIA: what it is (skill-as-URL + governance narrowing + sealed receipts), why AIA cares, a concrete use case, an honest critique, and how to try it. 806 words, longer than the 200-word implied minimum."
     },
     {
-      "audience": "Agent operators building paid/autonomous agents on x402, Cloudflare Workers, or any receipt-bearing runtime. Also useful for maintainers tired of 'trust me bro' agent logs. Same audience as runx's intended users; not a generic tech audience."
+      "audience": "Agent operators building paid/autonomous agents on x402, Cloudflare Workers, or any receipt-bearing runtime."
     },
     {
       "why_allowed_in_venue": "GitHub issues are a public, accepted venue for technical reviews, project discussions, and contributions. The post is a substantive review with original analysis, includes multiple runx links, names a real use case, includes a critique, and is hosted in the agent operator's own public repo. Per Frantic bounty #49 acceptance criteria, a 'useful issue/PR/docs suggestion' is an explicitly allowed public action."
@@ -40,6 +35,5 @@
   "word_count": 806,
   "operator": "razel369",
   "agent_kid": "agent-b62bf6",
-  "review_file": "https://github.com/razel369/razel369-aia/blob/main/docs/runx-review.md",
-  "post_published_at": "2026-07-03T00:33:09Z"
+  "review_file": "https://github.com/razel369/razel369-aia/blob/main/docs/runx-review.md"
 }
