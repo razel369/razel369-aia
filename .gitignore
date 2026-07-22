@@ -1,3 +1,6 @@
 ﻿__pycache__/
 *.pyc
 node_modules/
+
+# Personal / private materials — never commit (resumes, intake answers, applications)
+.private/
